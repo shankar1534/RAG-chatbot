@@ -1,0 +1,18 @@
+{
+  "name": "offline-ai-assistant",
+  "version": "1.0.0",
+  "description": "Offline AI assistant built with Node.js, Express.js, Ollama, and ChromaDB-style local storage",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.0",
+    "express": "^5.0.1",
+    "mammoth": "^1.12.0",
+    "multer": "^2.2.0",
+    "pdfjs-dist": "^5.0.0"
+  }
+}
