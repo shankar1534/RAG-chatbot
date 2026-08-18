@@ -1,0 +1,434 @@
+{
+  "items": [
+    {
+      "id": "Shankar_Narsim_Resume_Content.txt-1",
+      "document": "**Shankar Narsim** **MERN Stack Developer | React.js · Node.js · Express.js · MongoDB** shankar.narsim4@gmail.com | +91-9963901869 | Hyderabad, India | [linkedin.com/in/shankar-n1534](https://linkedin.com/in/shankar-n1534) | [github.com/shankar1534](https://github.com/shankar1534) **PROFESSIONAL SUMMARY** Dedicated and detail-oriented MERN Stack Developer with over 3 years of professional experience at Metalok Solutions, Medicover Corporate Office, GVR Company, and currently working with SANA Software (Client: BEL). Proven ability to build scalable, responsive, and user-friendly web applications using modern JavaScript frameworks. Adept at collaborating with cross-functional teams in fast-paced environments. **TECHNICAL SKILLS** **Programming Languages: **JavaScript (ES6+), Python **Frontend: **React.js, Next.js, React Router, Redux Toolkit, Context API, HTML5, CSS3, Bootstrap, Tailwind CSS, Responsive Web Design, React Native **Backend: **Node.js, Express.js, RESTful API Development, JWT Authentication, API Integration, CRUD Operations, Authentication & Authorization, Asynchronous Programming (Promises, Async/Await), Socket.IO, WebSockets, JSON, npm **Database: **MongoDB,",
+      "metadata": {
+        "sourceName": "Shankar_Narsim_Resume_Content.txt",
+        "filePath": "C:\\MY-FOLDER\\SANA\\OWN-AI-ASSISTANT\\uploads\\Shankar_Narsim_Resume_Content.txt",
+        "pageNumber": 1,
+        "chunkIndex": 0
+      }
+    },
+    {
+      "id": "Shankar_Narsim_Resume_Content.txt-2",
+      "document": "ication, API Integration, CRUD Operations, Authentication & Authorization, Asynchronous Programming (Promises, Async/Await), Socket.IO, WebSockets, JSON, npm **Database: **MongoDB, Mongoose, Oracle Database, MySQL **Version Control & Tools: **Git, GitHub, Postman, VS Code **Operating Systems: **Linux **Deployment: **Netlify, Vercel **Cloud: **AWS **PROFESSIONAL EXPERIENCE** **Full Stack Developer**** December 2025 – Present** *SANA Software (Client: BEL – Bharat Electronics Limited), Hyderabad* ● Currently developing a GPS-Based Employee Attendance System (MERN Stack) that allows employees to mark attendance only from authorized locations using GPS, featuring secure login, real-time location verification, attendance tracking, and an admin dashboard for monitoring employee records and reports. ● Developed an offline AI chatbot using Node.js with persistent chat history, reducing dependency on internet connectivity for internal users. ● Developed a real-time Ping Monitoring System for the Bharat Electronics Limited (BEL) Anti-UAV System to monitor the connectivity of Radar, EO/IR cameras, RF detection units, Mission Computer, GPS modules, Data Server, and other network-connected",
+      "metadata": {
+        "sourceName": "Shankar_Narsim_Resume_Content.txt",
+        "filePath": "C:\\MY-FOLDER\\SANA\\OWN-AI-ASSISTANT\\uploads\\Shankar_Narsim_Resume_Content.txt",
+        "pageNumber": 1,
+        "chunkIndex": 1
+      }
+    },
+    {
+      "id": "Shankar_Narsim_Resume_Content.txt-3",
+      "document": "onics Limited (BEL) Anti-UAV System to monitor the connectivity of Radar, EO/IR cameras, RF detection units, Mission Computer, GPS modules, Data Server, and other network-connected hardware, using asynchronous Node.js processes for continuous, non-blocking status polling. ● Designed and consumed RESTful APIs to feed live status indicators and detailed error reporting for efficient fault detection, system health monitoring, and rapid issue diagnosis. ● Installed and configured Oracle Database on a server, including database creation, user management, performance monitoring, and basic administration tasks. **Full Stack Developer**** January 2025 – November 2025** *GVR Company (Client: BEL – Bharat Electronics Limited), Hyderabad* ● Worked on the Automation Test Equipment project for BEL (Bharat Electronics Limited). ● Integrated and established IP & port communication with hardware devices such as signal generators and servo motors. ● Enabled device control through asynchronous, real-time data transmission for servo angle and speed configuration. ● Built and integrated RESTful API endpoints to connect with the Spectrum Analyzer via IP and port, allowing signal analysis and real-time",
+      "metadata": {
+        "sourceName": "Shankar_Narsim_Resume_Content.txt",
+        "filePath": "C:\\MY-FOLDER\\SANA\\OWN-AI-ASSISTANT\\uploads\\Shankar_Narsim_Resume_Content.txt",
+        "pageNumber": 1,
+        "chunkIndex": 2
+      }
+    },
+    {
+      "id": "Shankar_Narsim_Resume_Content.txt-4",
+      "document": "for servo angle and speed configuration. ● Built and integrated RESTful API endpoints to connect with the Spectrum Analyzer via IP and port, allowing signal analysis and real-time monitoring. ● Contributed to both front-end (React.js) and back-end (Node.js) development for the control interface. **Full Stack Developer**** August 2023 – December 2024** *Medicover Corporate Office, Hyderabad* ● Developed the Web Stories Dashboard using React.js, enabling story content to be added dynamically to the main Medicover website. ● Built a Content Page Creation Tool that converts copied document content into live web pages integrated into the main website. **Full Stack Developer**** July 2022 – May 2023** *Metalok Solutions, Hyderabad* ● Developed responsive websites optimized for both desktop and mobile platforms, resulting in a 100% increase in user engagement. ● Built Single Page Applications (SPA) using React.js and Redux, enhancing performance and user experience. ● Collaborated closely with designers and backend developers to ensure seamless integration of UI/UX and functionality. ● Maintained code quality through code reviews and consistent refactoring. **EDUCATION** **Bachelor of",
+      "metadata": {
+        "sourceName": "Shankar_Narsim_Resume_Content.txt",
+        "filePath": "C:\\MY-FOLDER\\SANA\\OWN-AI-ASSISTANT\\uploads\\Shankar_Narsim_Resume_Content.txt",
+        "pageNumber": 1,
+        "chunkIndex": 3
+      }
+    },
+    {
+      "id": "Shankar_Narsim_Resume_Content.txt-5",
+      "document": "backend developers to ensure seamless integration of UI/UX and functionality. ● Maintained code quality through code reviews and consistent refactoring. **EDUCATION** **Bachelor of Science in Computer Science** University College of Science, Saifabad, Hyderabad | May 2020 | Percentage: 65% **PROJECTS** ● Kyyte.io ● medicoverwebstories.netlify.app ● articles-code.netlify.app ● akshararchana.com ● Sportsverse.trade ● Wtl.metalok.io ● Rammandir.metalok.io ● Filmable.metalok.io **CERTIFICATIONS** ● JavaScript – Udemy ● React.js – Udemy ● Node.js – Udemy",
+      "metadata": {
+        "sourceName": "Shankar_Narsim_Resume_Content.txt",
+        "filePath": "C:\\MY-FOLDER\\SANA\\OWN-AI-ASSISTANT\\uploads\\Shankar_Narsim_Resume_Content.txt",
+        "pageNumber": 1,
+        "chunkIndex": 4
+      }
+    },
+    {
+      "id": "Shankar_Narsim_Resume_Content.txt-6",
+      "document": "**Shankar Narsim** **MERN Stack Developer | React.js · Node.js · Express.js · MongoDB** shankar.narsim4@gmail.com | +91-9963901869 | Hyderabad, India | [linkedin.com/in/shankar-n1534](https://linkedin.com/in/shankar-n1534) | [github.com/shankar1534](https://github.com/shankar1534) **PROFESSIONAL SUMMARY** Dedicated and detail-oriented MERN Stack Developer with over 3 years of professional experience at Metalok Solutions, Medicover Corporate Office, GVR Company, and currently working with SANA Software (Client: BEL). Proven ability to build scalable, responsive, and user-friendly web applications using modern JavaScript frameworks. Adept at collaborating with cross-functional teams in fast-paced environments. **TECHNICAL SKILLS** **Programming Languages: **JavaScript (ES6+), Python **Frontend: **React.js, Next.js, React Router, Redux Toolkit, Context API, HTML5, CSS3, Bootstrap, Tailwind CSS, Responsive Web Design, React Native **Backend: **Node.js, Express.js, RESTful API Development, JWT Authentication, API Integration, CRUD Operations, Authentication & Authorization, Asynchronous Programming (Promises, Async/Await), Socket.IO, WebSockets, JSON, npm **Database: **MongoDB,",
+      "metadata": {
+        "sourceName": "Shankar_Narsim_Resume_Content.txt",
+        "filePath": "C:\\MY-FOLDER\\SANA\\OWN-AI-ASSISTANT\\uploads\\Shankar_Narsim_Resume_Content.txt",
+        "pageNumber": 1,
+        "chunkIndex": 0
+      }
+    },
+    {
+      "id": "Shankar_Narsim_Resume_Content.txt-7",
+      "document": "ication, API Integration, CRUD Operations, Authentication & Authorization, Asynchronous Programming (Promises, Async/Await), Socket.IO, WebSockets, JSON, npm **Database: **MongoDB, Mongoose, Oracle Database, MySQL **Version Control & Tools: **Git, GitHub, Postman, VS Code **Operating Systems: **Linux **Deployment: **Netlify, Vercel **Cloud: **AWS **PROFESSIONAL EXPERIENCE** **Full Stack Developer**** December 2025 – Present** *SANA Software (Client: BEL – Bharat Electronics Limited), Hyderabad* ● Currently developing a GPS-Based Employee Attendance System (MERN Stack) that allows employees to mark attendance only from authorized locations using GPS, featuring secure login, real-time location verification, attendance tracking, and an admin dashboard for monitoring employee records and reports. ● Developed an offline AI chatbot using Node.js with persistent chat history, reducing dependency on internet connectivity for internal users. ● Developed a real-time Ping Monitoring System for the Bharat Electronics Limited (BEL) Anti-UAV System to monitor the connectivity of Radar, EO/IR cameras, RF detection units, Mission Computer, GPS modules, Data Server, and other network-connected",
+      "metadata": {
+        "sourceName": "Shankar_Narsim_Resume_Content.txt",
+        "filePath": "C:\\MY-FOLDER\\SANA\\OWN-AI-ASSISTANT\\uploads\\Shankar_Narsim_Resume_Content.txt",
+        "pageNumber": 1,
+        "chunkIndex": 1
+      }
+    },
+    {
+      "id": "Shankar_Narsim_Resume_Content.txt-8",
+      "document": "onics Limited (BEL) Anti-UAV System to monitor the connectivity of Radar, EO/IR cameras, RF detection units, Mission Computer, GPS modules, Data Server, and other network-connected hardware, using asynchronous Node.js processes for continuous, non-blocking status polling. ● Designed and consumed RESTful APIs to feed live status indicators and detailed error reporting for efficient fault detection, system health monitoring, and rapid issue diagnosis. ● Installed and configured Oracle Database on a server, including database creation, user management, performance monitoring, and basic administration tasks. **Full Stack Developer**** January 2025 – November 2025** *GVR Company (Client: BEL – Bharat Electronics Limited), Hyderabad* ● Worked on the Automation Test Equipment project for BEL (Bharat Electronics Limited). ● Integrated and established IP & port communication with hardware devices such as signal generators and servo motors. ● Enabled device control through asynchronous, real-time data transmission for servo angle and speed configuration. ● Built and integrated RESTful API endpoints to connect with the Spectrum Analyzer via IP and port, allowing signal analysis and real-time",
+      "metadata": {
+        "sourceName": "Shankar_Narsim_Resume_Content.txt",
+        "filePath": "C:\\MY-FOLDER\\SANA\\OWN-AI-ASSISTANT\\uploads\\Shankar_Narsim_Resume_Content.txt",
+        "pageNumber": 1,
+        "chunkIndex": 2
+      }
+    },
+    {
+      "id": "Shankar_Narsim_Resume_Content.txt-9",
+      "document": "for servo angle and speed configuration. ● Built and integrated RESTful API endpoints to connect with the Spectrum Analyzer via IP and port, allowing signal analysis and real-time monitoring. ● Contributed to both front-end (React.js) and back-end (Node.js) development for the control interface. **Full Stack Developer**** August 2023 – December 2024** *Medicover Corporate Office, Hyderabad* ● Developed the Web Stories Dashboard using React.js, enabling story content to be added dynamically to the main Medicover website. ● Built a Content Page Creation Tool that converts copied document content into live web pages integrated into the main website. **Full Stack Developer**** July 2022 – May 2023** *Metalok Solutions, Hyderabad* ● Developed responsive websites optimized for both desktop and mobile platforms, resulting in a 100% increase in user engagement. ● Built Single Page Applications (SPA) using React.js and Redux, enhancing performance and user experience. ● Collaborated closely with designers and backend developers to ensure seamless integration of UI/UX and functionality. ● Maintained code quality through code reviews and consistent refactoring. **EDUCATION** **Bachelor of",
+      "metadata": {
+        "sourceName": "Shankar_Narsim_Resume_Content.txt",
+        "filePath": "C:\\MY-FOLDER\\SANA\\OWN-AI-ASSISTANT\\uploads\\Shankar_Narsim_Resume_Content.txt",
+        "pageNumber": 1,
+        "chunkIndex": 3
+      }
+    },
+    {
+      "id": "Shankar_Narsim_Resume_Content.txt-10",
+      "document": "backend developers to ensure seamless integration of UI/UX and functionality. ● Maintained code quality through code reviews and consistent refactoring. **EDUCATION** **Bachelor of Science in Computer Science** University College of Science, Saifabad, Hyderabad | May 2020 | Percentage: 65% **PROJECTS** ● Kyyte.io ● medicoverwebstories.netlify.app ● articles-code.netlify.app ● akshararchana.com ● Sportsverse.trade ● Wtl.metalok.io ● Rammandir.metalok.io ● Filmable.metalok.io **CERTIFICATIONS** ● JavaScript – Udemy ● React.js – Udemy ● Node.js – Udemy",
+      "metadata": {
+        "sourceName": "Shankar_Narsim_Resume_Content.txt",
+        "filePath": "C:\\MY-FOLDER\\SANA\\OWN-AI-ASSISTANT\\uploads\\Shankar_Narsim_Resume_Content.txt",
+        "pageNumber": 1,
+        "chunkIndex": 4
+      }
+    },
+    {
+      "id": "rhapsody-data.txt-11",
+      "document": "Generating UML Diagrams in IBM Rhapsody After Reverse Engineering Java Code A Step-by-Step User Guide Applies to: IBM Engineering Systems Design Rhapsody – Developer for Java, Version 10.0.3 Covers: Class (Object Model) Diagrams • Use Case Diagrams • Sequence Diagrams Table of Contents 1. Overview: What Reverse Engineering Actually Produces 2. Step 1 – Reverse Engineer the Java Source 3. Step 2 – Create and Populate a Class Diagram 4. Step 3 – Create a Use Case Diagram (Manual) 5. Step 4 – Create and Populate a Sequence Diagram 5b. How Class Relationships Appear on Diagrams (Auto-Link vs Manual Link) 6. Quick Reference Table 7. Troubleshooting: Empty Box on Diagram 1. Overview: What Reverse Engineering Actually Produces When you run Reverse Engineer → Java in Rhapsody, the tool reads your source code and builds model elements — packages, classes, attributes, operations, and relationships (inheritance, associations). These elements appear in the Browser tree on the left side of Rhapsody. However, Rhapsody does not automatically draw these elements onto a diagram canvas. The diagram that opens after reverse engineering typically shows only an empty package box, because a diagram is a",
+      "metadata": {
+        "sourceName": "rhapsody-data.txt",
+        "filePath": "C:\\MY-FOLDER\\SANA\\OWN-AI-ASSISTANT\\uploads\\rhapsody-data.txt",
+        "pageNumber": 1,
+        "chunkIndex": 0
+      }
+    },
+    {
+      "id": "rhapsody-data.txt-12",
+      "document": "does not automatically draw these elements onto a diagram canvas. The diagram that opens after reverse engineering typically shows only an empty package box, because a diagram is a separate, editable view of the model — you choose what to display on it. This means: after reverse engineering, you must manually build each diagram type (Class, Use Case, Sequence, etc.) by dragging model elements onto a diagram, or by using Rhapsody's diagram-population commands described below. Key point: Use Case diagrams cannot be generated from source code at all, because actors and use cases are requirements-level concepts with no direct equivalent in Java syntax. These must always be created manually. About the \"Add New\" menu: When you right-click a package in the Browser and choose Add New, the flyout list mixes two different kinds of things. The upper part (Variable, Event, Package, Class, Object, Interface, Actor, Use Case, Requirement, etc.) adds a single bare model element directly into the Browser tree — not a diagram. The actual diagrams live one level deeper, under the Diagrams submenu near the bottom of the same flyout. Hover over Diagrams to open a second flyout containing Object Model",
+      "metadata": {
+        "sourceName": "rhapsody-data.txt",
+        "filePath": "C:\\MY-FOLDER\\SANA\\OWN-AI-ASSISTANT\\uploads\\rhapsody-data.txt",
+        "pageNumber": 1,
+        "chunkIndex": 1
+      }
+    },
+    {
+      "id": "rhapsody-data.txt-13",
+      "document": "agram. The actual diagrams live one level deeper, under the Diagrams submenu near the bottom of the same flyout. Hover over Diagrams to open a second flyout containing Object Model Diagram, Use Case Diagram, Sequence Diagram, Statechart Diagram, Activity Diagram, and others. All diagram creation steps in this manual use this Add New → Diagrams → [Diagram Type] path. 2. Step 1 – Reverse Engineer the Java Source 1. Open Rhapsody 10.0.3 and create or open your project. 2. Go to the menu bar: File → Reverse Engineer → Java... 3. In the Reverse Engineering wizard, browse to and select the root folder containing your .javasource files (or select the compiled .class files / JAR, depending on what you have available). 4. Choose the target package/component in your model where the reverse-engineered elementsshould be placed. 5. Review the options in the wizard (e.g., include comments, generate default diagrams if offered) andclick Next through the wizard. 6. Click Finish to run the reverse engineering process. 7. When it completes, expand the Browser tree on the left. You should see your packages and classes listed under Packages → [your package] → Classes. 3. Step 2 – Create and Populate a",
+      "metadata": {
+        "sourceName": "rhapsody-data.txt",
+        "filePath": "C:\\MY-FOLDER\\SANA\\OWN-AI-ASSISTANT\\uploads\\rhapsody-data.txt",
+        "pageNumber": 1,
+        "chunkIndex": 2
+      }
+    },
+    {
+      "id": "rhapsody-data.txt-14",
+      "document": "When it completes, expand the Browser tree on the left. You should see your packages and classes listed under Packages → [your package] → Classes. 3. Step 2 – Create and Populate a Class Diagram In Rhapsody, a Class Diagram is called an Object Model Diagram. Follow these steps to create one and fill it with your reverse-engineered classes. 3.1 Create a new Object Model Diagram 1. In the Browser tree, right-click the package you want to diagram (for example, awt or swing). 2. Select Add New → Diagrams → Object Model Diagram from the context menu (hover over the Diagrams submenu first, then pick Object Model Diagram from the flyout list). 3. Give the diagram a name (e.g., \"awt\" or \"AWT_ClassDiagram\") and press Enter. 4. Double-click the new diagram in the Browser tree to open it — it will open as an empty canvas (thisis expected and normal at this stage). 3.2 Populate the diagram with classes 1. Make sure the new diagram is open and active (its tab is selected in the main editing area on theright). 2. In the Browser tree, expand the same package (e.g., awt) until you see its Classes folder underneath it. 3. Click a class to select it. Hold Ctrl and click additional classes to",
+      "metadata": {
+        "sourceName": "rhapsody-data.txt",
+        "filePath": "C:\\MY-FOLDER\\SANA\\OWN-AI-ASSISTANT\\uploads\\rhapsody-data.txt",
+        "pageNumber": 1,
+        "chunkIndex": 3
+      }
+    },
+    {
+      "id": "rhapsody-data.txt-15",
+      "document": "2. In the Browser tree, expand the same package (e.g., awt) until you see its Classes folder underneath it. 3. Click a class to select it. Hold Ctrl and click additional classes to multi-select several at once, or click directly on the Classes folder itself to select and add all classes in it together. 4. Left-click and drag the selected class(es) from the Browser directly onto the open diagram canvas(the white grid area on the right). 5. Release the mouse button over the canvas — Rhapsody will draw each class as a box, usuallyshowing its name, attributes, and operations. 6. If the classes have inheritance, dependency, or association relationships already defined in themodel (for example, as seen earlier in a class's Relations tab), right-click on empty space inside the diagram canvas and choose Add → Relations (or similar) to auto-draw the existing connecting lines between the classes now on the diagram. 7. Use Layout → Auto Layout (or the auto-arrange icon on the diagram toolbar) to neatly organize the boxes if they overlap. 8. Save the diagram: File → Save or Ctrl+S. Note on sub-packages: If the package you diagrammed has sub-packages (for example, awt may contain event and",
+      "metadata": {
+        "sourceName": "rhapsody-data.txt",
+        "filePath": "C:\\MY-FOLDER\\SANA\\OWN-AI-ASSISTANT\\uploads\\rhapsody-data.txt",
+        "pageNumber": 1,
+        "chunkIndex": 4
+      }
+    },
+    {
+      "id": "rhapsody-data.txt-16",
+      "document": "the boxes if they overlap. 8. Save the diagram: File → Save or Ctrl+S. Note on sub-packages: If the package you diagrammed has sub-packages (for example, awt may contain event and geom), dragging the parent package's own Classes folder will not automatically bring in classes from those sub-packages. To include them on the same diagram, separately expand each sub-package (e.g., event, geom), open its own Classes folder, and drag those classes onto the diagram as well. Tip: If relationships do not appear automatically, right-click on empty space inside the diagram canvas and look for Add → Relations or similar, which draws existing model relationships between the classes already placed on the diagram. 4. Step 3 – Create a Use Case Diagram (Manual) Use Case diagrams describe system requirements from a user/actor perspective. They are never generated by reverse engineering and must be built by hand based on your understanding of what the system does. 1. In the Browser tree, right-click the package or model node where you want the diagram. 2. Select Add New → Diagrams → Use Case Diagram (hover over the Diagrams submenu first, then pick Use Case Diagram from the flyout list). 3. Name",
+      "metadata": {
+        "sourceName": "rhapsody-data.txt",
+        "filePath": "C:\\MY-FOLDER\\SANA\\OWN-AI-ASSISTANT\\uploads\\rhapsody-data.txt",
+        "pageNumber": 1,
+        "chunkIndex": 5
+      }
+    },
+    {
+      "id": "rhapsody-data.txt-17",
+      "document": "l node where you want the diagram. 2. Select Add New → Diagrams → Use Case Diagram (hover over the Diagrams submenu first, then pick Use Case Diagram from the flyout list). 3. Name the diagram (e.g., \"System_UseCases\") and double-click to open it. 4. On the diagram toolbar (top of the drawing area), select the Actor tool and click on the canvas to place an actor. Repeat for each actor (person, external system) that interacts with your application. 5. Select the Use Case tool (oval shape) and click on the canvas to place each use case representing a function or goal of the system. 6. Select the Association tool and draw a line from each actor to the use case(s) it participates in. 7. Optionally use Include and Extend relationship tools to show relationships between use cases. 8. Rename each element by double-clicking its label and typing a descriptive name. 9. Save the diagram. 5. Step 4 – Create and Populate a Sequence Diagram Sequence diagrams show the order of messages exchanged between objects. Like class diagrams, the lifelines can be dragged in from reverse-engineered classes, but the messages between them are typically added by hand based on the operations you see in each",
+      "metadata": {
+        "sourceName": "rhapsody-data.txt",
+        "filePath": "C:\\MY-FOLDER\\SANA\\OWN-AI-ASSISTANT\\uploads\\rhapsody-data.txt",
+        "pageNumber": 1,
+        "chunkIndex": 6
+      }
+    },
+    {
+      "id": "rhapsody-data.txt-18",
+      "document": "e class diagrams, the lifelines can be dragged in from reverse-engineered classes, but the messages between them are typically added by hand based on the operations you see in each class. 5.1 Create the diagram 1. Right-click the target package in the Browser tree. 2. Select Add New → Diagrams → Sequence Diagram (hover over Diagrams to open the flyout, then choose Sequence Diagram). 3. Name it (e.g., \"Login_Sequence\") and double-click to open the empty diagram. 5.2 Add lifelines (objects) 1. In the Browser tree, select the class(es) whose instances participate in this interaction. 2. Drag each class from the Browser onto the sequence diagram canvas. 3. Rhapsody creates a lifeline (a vertical dashed line) for each object, labeled with the class name. 4. Rename an individual lifeline if you want it to represent a specific instance (e.g., \"loginWindow : WindowAdapter\") by double-clicking its header box. 5.3 Add messages between lifelines 1. On the diagram toolbar, select a message tool — typically Operation Call (synchronous), Asynchronous Message, or Return Message. 2. Click the sending lifeline, then click the receiving lifeline to draw the message arrow. 3. Rhapsody will prompt you",
+      "metadata": {
+        "sourceName": "rhapsody-data.txt",
+        "filePath": "C:\\MY-FOLDER\\SANA\\OWN-AI-ASSISTANT\\uploads\\rhapsody-data.txt",
+        "pageNumber": 1,
+        "chunkIndex": 7
+      }
+    },
+    {
+      "id": "rhapsody-data.txt-19",
+      "document": "Call (synchronous), Asynchronous Message, or Return Message. 2. Click the sending lifeline, then click the receiving lifeline to draw the message arrow. 3. Rhapsody will prompt you to pick an existing operation from the target class (from those found during reverse engineering) or type a new message label. 4. Repeat to build out the full interaction, adding messages top-to-bottom in the order they occur. 5. Use the Create Return Message tool for return values where relevant. 6. Save the diagram. Note on automatic sequence generation: Rhapsody can auto-generate sequence diagrams from actual program execution using Animation mode, but this requires the model/code to be built and run within Rhapsody's animated debugging environment. For code that was only statically reverse engineered (not built and run through Rhapsody), building the sequence diagram by hand as above is the standard approach. 5b. How Class Relationships Appear on Diagrams A common question: when you drag two related classes onto the same diagram, does Rhapsody automatically draw the connecting line between them? The answer depends on whether the relationship already exists in the model or not. 5b.1 Case A – The",
+      "metadata": {
+        "sourceName": "rhapsody-data.txt",
+        "filePath": "C:\\MY-FOLDER\\SANA\\OWN-AI-ASSISTANT\\uploads\\rhapsody-data.txt",
+        "pageNumber": 1,
+        "chunkIndex": 8
+      }
+    },
+    {
+      "id": "rhapsody-data.txt-20",
+      "document": "ame diagram, does Rhapsody automatically draw the connecting line between them? The answer depends on whether the relationship already exists in the model or not. 5b.1 Case A – The relationship already exists in the model Reverse engineering captures relationships that are visible in the code (dependencies, associations, inheritance, imports, etc.) and stores them in the model, even though no diagram shows them yet. You can check this before building a diagram: 1. In the Browser, right-click the class (e.g., ActionEvent) and choose Features... (or double-click the class to open its Features dialog). 2. Click the Relations tab. This lists every relationship the class already has, its type (Dependency, Association, Generalization, etc.), its direction, and the class at the other end. 3. Note the names of the related classes (e.g., MainGUI, NavButton, RoundedButton) — these arethe ones you need to place on the same diagram to see the link drawn. Once you know which classes are linked, draw them together: 1. Open (or create) an Object Model Diagram. 2. Drag the first class (e.g., ActionEvent) onto the canvas. 3. Drag each related class listed in its Relations tab (e.g., MainGUI,",
+      "metadata": {
+        "sourceName": "rhapsody-data.txt",
+        "filePath": "C:\\MY-FOLDER\\SANA\\OWN-AI-ASSISTANT\\uploads\\rhapsody-data.txt",
+        "pageNumber": 1,
+        "chunkIndex": 9
+      }
+    },
+    {
+      "id": "rhapsody-data.txt-21",
+      "document": "er: 1. Open (or create) an Object Model Diagram. 2. Drag the first class (e.g., ActionEvent) onto the canvas. 3. Drag each related class listed in its Relations tab (e.g., MainGUI, NavButton, RoundedButton,RoundedLineBorder, StatusBadgeRenderer) onto the same canvas. 4. Right-click on empty space inside the diagram canvas and choose Add → Relations (sometimes shown as Add Related Elements or found under the diagram's right-click menu, depending on version/build). This tells Rhapsody to draw any existing relationships between the elements already placed on the diagram. 5. If the command above is not available in your build, try selecting all the classes on the diagram(Ctrl+A or rubber-band select), then right-click and check for Show Relations or Auto Arrange style options. 6. The dependency/association arrows should now appear connecting the boxes, matching what yousaw in the class's Relations tab. Important: Simply dragging two related classes onto the same diagram does not always auto-draw the line immediately in every Rhapsody build — you typically still need to trigger Add Relations (Step 4 above) once. After that, the link is visible and stays on the diagram when you save it.",
+      "metadata": {
+        "sourceName": "rhapsody-data.txt",
+        "filePath": "C:\\MY-FOLDER\\SANA\\OWN-AI-ASSISTANT\\uploads\\rhapsody-data.txt",
+        "pageNumber": 1,
+        "chunkIndex": 10
+      }
+    },
+    {
+      "id": "rhapsody-data.txt-22",
+      "document": "ediately in every Rhapsody build — you typically still need to trigger Add Relations (Step 4 above) once. After that, the link is visible and stays on the diagram when you save it. 5b.2 Case B – You want to create a brand-new relationship manually If two classes are not linked in the model at all (nothing shows in the Relations tab) and you want to define a new relationship between them — for example while designing new functionality, not just reviewing reverse-engineered code — draw it directly on the diagram: 1. Place both classes on the same Object Model Diagram (drag them from the Browser as usual). 2. On the diagram toolbar (top of the drawing area), select the relationship tool you need: Association, Dependency, Generalization (inheritance), Aggregation, or Composition. These icons are usually grouped together near the top of the diagram toolbar. 3. Click on the source class box, then click on the target class box. Rhapsody draws the connectingline and simultaneously creates the relationship in the underlying model (it will now also show up in the class's Relations tab). 4. Double-click the new relationship line if you need to set its name, multiplicity, or navigation",
+      "metadata": {
+        "sourceName": "rhapsody-data.txt",
+        "filePath": "C:\\MY-FOLDER\\SANA\\OWN-AI-ASSISTANT\\uploads\\rhapsody-data.txt",
+        "pageNumber": 1,
+        "chunkIndex": 11
+      }
+    },
+    {
+      "id": "rhapsody-data.txt-23",
+      "document": "in the underlying model (it will now also show up in the class's Relations tab). 4. Double-click the new relationship line if you need to set its name, multiplicity, or navigation direction(via the Features dialog that opens). 5. Save the diagram: File → Save or Ctrl+S. Tip: Case A (showing existing relationships) is what you need for reverse-engineered code, since the real dependencies between your classes were already detected from the source. Case B (drawing new relationships) is for when you are extending or redesigning the model yourself. 6. Quick Reference Table Diagram Type Auto-created by Reverse Engineering? How to Build It Class / Object Model Diagram No (classes exist in model only) Add New Diagram, then drag classes from Browser onto canvas Use Case Diagram No – not derivable from code Add New Diagram, manually place Actors and Use Cases, connect with Associations Sequence Diagram No (unless using Animation mode) Add New Diagram, drag classes in as lifelines, manually add messages 7. Troubleshooting: Empty Box on Diagram If, after reverse engineering, your diagram shows only a single empty box (e.g., a package or RoundRectangle2D box with nothing inside), this is",
+      "metadata": {
+        "sourceName": "rhapsody-data.txt",
+        "filePath": "C:\\MY-FOLDER\\SANA\\OWN-AI-ASSISTANT\\uploads\\rhapsody-data.txt",
+        "pageNumber": 1,
+        "chunkIndex": 12
+      }
+    },
+    {
+      "id": "rhapsody-data.txt-24",
+      "document": "oubleshooting: Empty Box on Diagram If, after reverse engineering, your diagram shows only a single empty box (e.g., a package or RoundRectangle2D box with nothing inside), this is expected behavior, not an error. It means the model elements were created successfully, but no diagram has been populated with them yet. To fix this: 1. Confirm the classes exist: expand the package in the Browser tree and check under its Classes folder. 2. Open (or create) the diagram you want to use, and drag the classes from the Browser onto thecanvas as described in Section 3.2. 3. If dragging does not seem to work, make sure you are dragging from the Browser tree (left panel) onto the diagram canvas (right panel), not onto another tree node. 4. Use Layout → Auto Layout after adding elements if the diagram looks cluttered or overlapping.",
+      "metadata": {
+        "sourceName": "rhapsody-data.txt",
+        "filePath": "C:\\MY-FOLDER\\SANA\\OWN-AI-ASSISTANT\\uploads\\rhapsody-data.txt",
+        "pageNumber": 1,
+        "chunkIndex": 13
+      }
+    },
+    {
+      "id": "Shankar_data.txt-25",
+      "document": "**Shankar Narsim** **MERN Stack Developer | React.js · Node.js · Express.js · MongoDB** shankar.narsim4@gmail.com | +91-9963901869 | Hyderabad, India | [linkedin.com/in/shankar-n1534](https://linkedin.com/in/shankar-n1534) | [github.com/shankar1534](https://github.com/shankar1534) **PROFESSIONAL SUMMARY** Dedicated and detail-oriented MERN Stack Developer with over 3 years of professional experience at Metalok Solutions, Medicover Corporate Office, GVR Company, and currently working with SANA Software (Client: BEL). Proven ability to build scalable, responsive, and user-friendly web applications using modern JavaScript frameworks. Adept at collaborating with cross-functional teams in fast-paced environments. **TECHNICAL SKILLS** **Programming Languages: **JavaScript (ES6+), Python **Frontend: **React.js, Next.js, React Router, Redux Toolkit, Context API, HTML5, CSS3, Bootstrap, Tailwind CSS, Responsive Web Design, React Native **Backend: **Node.js, Express.js, RESTful API Development, JWT Authentication, API Integration, CRUD Operations, Authentication & Authorization, Asynchronous Programming (Promises, Async/Await), Socket.IO, WebSockets, JSON, npm **Database: **MongoDB,",
+      "metadata": {
+        "sourceName": "Shankar_data.txt",
+        "filePath": "C:\\MY-FOLDER\\SANA\\OWN-AI-ASSISTANT\\uploads\\Shankar_data.txt",
+        "pageNumber": 1,
+        "chunkIndex": 0
+      }
+    },
+    {
+      "id": "Shankar_data.txt-26",
+      "document": "ication, API Integration, CRUD Operations, Authentication & Authorization, Asynchronous Programming (Promises, Async/Await), Socket.IO, WebSockets, JSON, npm **Database: **MongoDB, Mongoose, Oracle Database, MySQL **Version Control & Tools: **Git, GitHub, Postman, VS Code **Operating Systems: **Linux **Deployment: **Netlify, Vercel **Cloud: **AWS **PROFESSIONAL EXPERIENCE** **Full Stack Developer**** December 2025 – Present** *SANA Software (Client: BEL – Bharat Electronics Limited), Hyderabad* ● Currently developing a GPS-Based Employee Attendance System (MERN Stack) that allows employees to mark attendance only from authorized locations using GPS, featuring secure login, real-time location verification, attendance tracking, and an admin dashboard for monitoring employee records and reports. ● Developed an offline AI chatbot using Node.js with persistent chat history, reducing dependency on internet connectivity for internal users. ● Developed a real-time Ping Monitoring System for the Bharat Electronics Limited (BEL) Anti-UAV System to monitor the connectivity of Radar, EO/IR cameras, RF detection units, Mission Computer, GPS modules, Data Server, and other network-connected",
+      "metadata": {
+        "sourceName": "Shankar_data.txt",
+        "filePath": "C:\\MY-FOLDER\\SANA\\OWN-AI-ASSISTANT\\uploads\\Shankar_data.txt",
+        "pageNumber": 1,
+        "chunkIndex": 1
+      }
+    },
+    {
+      "id": "Shankar_data.txt-27",
+      "document": "onics Limited (BEL) Anti-UAV System to monitor the connectivity of Radar, EO/IR cameras, RF detection units, Mission Computer, GPS modules, Data Server, and other network-connected hardware, using asynchronous Node.js processes for continuous, non-blocking status polling. ● Designed and consumed RESTful APIs to feed live status indicators and detailed error reporting for efficient fault detection, system health monitoring, and rapid issue diagnosis. ● Installed and configured Oracle Database on a server, including database creation, user management, performance monitoring, and basic administration tasks. **Full Stack Developer**** January 2025 – November 2025** *GVR Company (Client: BEL – Bharat Electronics Limited), Hyderabad* ● Worked on the Automation Test Equipment project for BEL (Bharat Electronics Limited). ● Integrated and established IP & port communication with hardware devices such as signal generators and servo motors. ● Enabled device control through asynchronous, real-time data transmission for servo angle and speed configuration. ● Built and integrated RESTful API endpoints to connect with the Spectrum Analyzer via IP and port, allowing signal analysis and real-time",
+      "metadata": {
+        "sourceName": "Shankar_data.txt",
+        "filePath": "C:\\MY-FOLDER\\SANA\\OWN-AI-ASSISTANT\\uploads\\Shankar_data.txt",
+        "pageNumber": 1,
+        "chunkIndex": 2
+      }
+    },
+    {
+      "id": "Shankar_data.txt-28",
+      "document": "for servo angle and speed configuration. ● Built and integrated RESTful API endpoints to connect with the Spectrum Analyzer via IP and port, allowing signal analysis and real-time monitoring. ● Contributed to both front-end (React.js) and back-end (Node.js) development for the control interface. **Full Stack Developer**** August 2023 – December 2024** *Medicover Corporate Office, Hyderabad* ● Developed the Web Stories Dashboard using React.js, enabling story content to be added dynamically to the main Medicover website. ● Built a Content Page Creation Tool that converts copied document content into live web pages integrated into the main website. **Full Stack Developer**** July 2022 – May 2023** *Metalok Solutions, Hyderabad* ● Developed responsive websites optimized for both desktop and mobile platforms, resulting in a 100% increase in user engagement. ● Built Single Page Applications (SPA) using React.js and Redux, enhancing performance and user experience. ● Collaborated closely with designers and backend developers to ensure seamless integration of UI/UX and functionality. ● Maintained code quality through code reviews and consistent refactoring. **EDUCATION** **Bachelor of",
+      "metadata": {
+        "sourceName": "Shankar_data.txt",
+        "filePath": "C:\\MY-FOLDER\\SANA\\OWN-AI-ASSISTANT\\uploads\\Shankar_data.txt",
+        "pageNumber": 1,
+        "chunkIndex": 3
+      }
+    },
+    {
+      "id": "Shankar_data.txt-29",
+      "document": "backend developers to ensure seamless integration of UI/UX and functionality. ● Maintained code quality through code reviews and consistent refactoring. **EDUCATION** **Bachelor of Science in Computer Science** University College of Science, Saifabad, Hyderabad | May 2020 | Percentage: 65% **PROJECTS** ● Kyyte.io ● medicoverwebstories.netlify.app ● articles-code.netlify.app ● akshararchana.com ● Sportsverse.trade ● Wtl.metalok.io ● Rammandir.metalok.io ● Filmable.metalok.io **CERTIFICATIONS** ● JavaScript – Udemy ● React.js – Udemy ● Node.js – Udemy",
+      "metadata": {
+        "sourceName": "Shankar_data.txt",
+        "filePath": "C:\\MY-FOLDER\\SANA\\OWN-AI-ASSISTANT\\uploads\\Shankar_data.txt",
+        "pageNumber": 1,
+        "chunkIndex": 4
+      }
+    },
+    {
+      "id": "sana_software.txt-30",
+      "document": "SaNa Software Services Pvt. Ltd. – Complete Company Profile 1. Company Overview SaNa Software Services Pvt. Ltd. is a Hyderabad-based software and embedded systems company established in 2010. The company provides end-to-end software development, embedded engineering, IoT, testing, PCB design, and enterprise IT solutions for government organizations, public sector companies, and private enterprises. It specializes in building reliable and mission-critical software solutions for industries such as Defense, Railways, Automotive, Industrial Automation, Healthcare, and Enterprise IT. 2. Founder & Leadership Founder / Director Mr. Ranga Reddy A. V. (also listed in corporate records as Ranga Reddy Venkata Aiereddy) He is associated with the company as its founder/director and has experience in software engineering, embedded systems, enterprise software, and project management. 3. Company Information Item Details Company Name SaNa Software Services Pvt. Ltd. Founded 2010 Headquarters Hyderabad, Telangana Company Type Private Industry Software Development, Embedded Systems, IT Services Website https://www.sanasw.com Email info@sanasw.com Phone +91 7207143300 Vision To deliver innovative",
+      "metadata": {
+        "sourceName": "sana_software.txt",
+        "filePath": "C:\\MY-FOLDER\\SANA\\OWN-AI-ASSISTANT\\uploads\\sana_software.txt",
+        "pageNumber": 1,
+        "chunkIndex": 0
+      }
+    },
+    {
+      "id": "sana_software.txt-31",
+      "document": "any Type Private Industry Software Development, Embedded Systems, IT Services Website https://www.sanasw.com Email info@sanasw.com Phone +91 7207143300 Vision To deliver innovative technology solutions that help businesses improve productivity, quality, and operational efficiency through advanced software engineering and embedded technologies. Mission Deliver high-quality software. Build reliable embedded products. Maintain customer satisfaction. Provide innovative engineering solutions. Support digital transformation across industries. Core Business Areas Embedded Systems The company develops: Firmware Embedded Software Device Drivers Embedded Linux Applications RTOS Applications Display Systems Board Support Packages (BSP) Web Application Development Development of Business Portals ERP Systems CRM Applications Admin Dashboards Enterprise Applications Custom Websites Mobile Application Development Android Apps Cross-platform Apps Business Applications IoT Mobile Applications IoT Solutions Develops Sensor-based Systems Smart Monitoring Remote Device Management Industrial IoT Automation Solutions Software Testing Provides Manual Testing Functional Testing Regression Testing",
+      "metadata": {
+        "sourceName": "sana_software.txt",
+        "filePath": "C:\\MY-FOLDER\\SANA\\OWN-AI-ASSISTANT\\uploads\\sana_software.txt",
+        "pageNumber": 1,
+        "chunkIndex": 1
+      }
+    },
+    {
+      "id": "sana_software.txt-32",
+      "document": "ps Sensor-based Systems Smart Monitoring Remote Device Management Industrial IoT Automation Solutions Software Testing Provides Manual Testing Functional Testing Regression Testing Performance Testing Automation Testing QA Services PCB Design & Manufacturing Provides PCB Design PCB Fabrication Prototype Boards Hardware Development Technology Expertise Programming Languages C C++ Java Python JavaScript Web Technologies HTML5 CSS3 JavaScript React Node.js PHP Mobile Android Hybrid Applications Database MySQL SQL Server Oracle MongoDB Embedded Embedded C Embedded Linux RTOS Device Drivers Firmware Cloud & IoT IoT Platforms Cloud Applications Industry Domains The company works across multiple industries. Defense Projects involving Radar Signal Processing Embedded Systems Communication Systems Railway Railway Automation Safety Systems Embedded Applications Automotive Embedded Electronics Automotive Software Industrial Automation PLC Automation Systems Monitoring Applications Healthcare Healthcare Software Enterprise Applications Enterprise IT ERP CRM Web Portals Business Applications Software Engineering Standards The company mentions experience with: DO-178B IEEE 12206 CENELEC These",
+      "metadata": {
+        "sourceName": "sana_software.txt",
+        "filePath": "C:\\MY-FOLDER\\SANA\\OWN-AI-ASSISTANT\\uploads\\sana_software.txt",
+        "pageNumber": 1,
+        "chunkIndex": 2
+      }
+    },
+    {
+      "id": "sana_software.txt-33",
+      "document": "nterprise Applications Enterprise IT ERP CRM Web Portals Business Applications Software Engineering Standards The company mentions experience with: DO-178B IEEE 12206 CENELEC These are standards commonly used in safety-critical aerospace and railway software. Major Clients Displayed The website displays logos from organizations including: DRDO ECIL BHEL ALSTOM MEDHA TGTRANSCO HBL ValueLabs Cigniti KPIT TCS Hurix Nihilent The website presents these as organizations it has worked with or collaborated with. Company Strengths Embedded Systems IoT Software Development Mobile Apps Web Applications Software Testing PCB Design Industrial Automation Enterprise Solutions Why Companies Choose SaNa Experienced engineers Embedded expertise Government project experience Defense domain knowledge Enterprise software solutions End-to-end software development Quality assurance Custom software development Typical Development Process Requirement Analysis System Design Development Testing Deployment Maintenance If You Join as a React Developer Expected skills include: React.js HTML5 CSS3 JavaScript (ES6+) TypeScript Tailwind CSS Node.js Express.js REST APIs MongoDB Git & GitHub State management (Redux",
+      "metadata": {
+        "sourceName": "sana_software.txt",
+        "filePath": "C:\\MY-FOLDER\\SANA\\OWN-AI-ASSISTANT\\uploads\\sana_software.txt",
+        "pageNumber": 1,
+        "chunkIndex": 3
+      }
+    },
+    {
+      "id": "sana_software.txt-34",
+      "document": "s a React Developer Expected skills include: React.js HTML5 CSS3 JavaScript (ES6+) TypeScript Tailwind CSS Node.js Express.js REST APIs MongoDB Git & GitHub State management (Redux or Zustand) API integration Responsive UI Company Address SaNa Software Services Pvt. Ltd. Srinivasa Towers Neredmet X Road Malkajgiri Hyderabad – 500056 Telangana, India Phone: +91 7207143300 Email: info@sanasw.com Summary SaNa Software Services is a Hyderabad-based software company founded in 2010 and led by Mr. Ranga Reddy A. V. It focuses on embedded systems, web and mobile development, IoT, software testing, and PCB design. The company serves sectors such as defense, railways, automotive, industrial automation, and enterprise IT, emphasizing engineering quality and standards for mission-critical applications.",
+      "metadata": {
+        "sourceName": "sana_software.txt",
+        "filePath": "C:\\MY-FOLDER\\SANA\\OWN-AI-ASSISTANT\\uploads\\sana_software.txt",
+        "pageNumber": 1,
+        "chunkIndex": 4
+      }
+    },
+    {
+      "id": "sana_software.txt-35",
+      "document": "SaNa Software Services Pvt. Ltd. Company Overview SaNa Software Services Pvt. Ltd. is a Hyderabad-based technology company specializing in Embedded Systems, Enterprise Software Development, Web Applications, Mobile Applications, Internet of Things (IoT), Software Testing, PCB Design, and Digital Engineering Solutions. Founded in 2010, the company has built expertise in delivering software and engineering solutions for government organizations, public sector enterprises, and private industries. Today, SaNa Software is recognized for providing end-to-end technology solutions across multiple domains, including Defense, Railways, Automotive, Industrial Automation, Healthcare, Enterprise IT, and IoT. Company Information Particular Details Company Name SaNa Software Services Pvt. Ltd. Founded 2010 Headquarters Hyderabad, Telangana, India Industry Information Technology & Software Services Company Type Private Limited CEO & Founder Mr. Ranga Reddy A. V. Number of Employees: 60 Website https://www.sanasw.com Email info@sanasw.com About the CEO Mr. Ranga Reddy A. V. Founder & Chief Executive Officer (CEO) Mr. Ranga Reddy A. V. is the founder and CEO of SaNa Software Services Pvt. Ltd. With",
+      "metadata": {
+        "sourceName": "sana_software.txt",
+        "filePath": "C:\\MY-FOLDER\\SANA\\OWN-AI-ASSISTANT\\uploads\\sana_software.txt",
+        "pageNumber": 1,
+        "chunkIndex": 0
+      }
+    },
+    {
+      "id": "sana_software.txt-36",
+      "document": "il info@sanasw.com About the CEO Mr. Ranga Reddy A. V. Founder & Chief Executive Officer (CEO) Mr. Ranga Reddy A. V. is the founder and CEO of SaNa Software Services Pvt. Ltd. With extensive experience in software engineering, embedded systems, and technology leadership, he has guided the company in delivering innovative software solutions for mission-critical industries. Under his leadership, SaNa Software has expanded its capabilities in: Embedded Software Defense Technologies Enterprise Applications Web Technologies IoT Solutions Industrial Automation Digital Transformation Research & Development His focus is on quality, innovation, customer satisfaction, and continuous improvement. Vision To become a globally recognized technology company delivering innovative, reliable, and high-quality software and engineering solutions that empower businesses and government organizations through digital transformation. Mission Deliver high-quality software solutions. Build innovative embedded systems. Develop customer-centric products. Ensure continuous technological innovation. Maintain excellence in engineering and quality standards. Build long-term customer relationships. Core Business",
+      "metadata": {
+        "sourceName": "sana_software.txt",
+        "filePath": "C:\\MY-FOLDER\\SANA\\OWN-AI-ASSISTANT\\uploads\\sana_software.txt",
+        "pageNumber": 1,
+        "chunkIndex": 1
+      }
+    },
+    {
+      "id": "sana_software.txt-37",
+      "document": "stomer-centric products. Ensure continuous technological innovation. Maintain excellence in engineering and quality standards. Build long-term customer relationships. Core Business Services 1. Embedded Systems Development SaNa Software develops embedded software for various hardware platforms. Services include: Embedded Software Development Firmware Development Device Driver Development Board Support Packages (BSP) Embedded Linux RTOS Applications Display Systems Hardware-Software Integration 2. Web Application Development The company develops secure and scalable web applications using modern technologies. Solutions include: Enterprise Applications Business Portals ERP Systems CRM Applications Admin Dashboards E-Commerce Applications Custom Web Solutions REST API Development 3. Mobile Application Development Development of Android and cross-platform mobile applications for businesses and IoT ecosystems. Features include: Android Apps Business Apps Enterprise Mobility IoT Mobile Applications 4. Internet of Things (IoT) IoT solutions include: Smart Monitoring Systems Sensor Integration Device Connectivity Remote Monitoring Industrial IoT Smart Automation Cloud-Based IoT Solutions 5.",
+      "metadata": {
+        "sourceName": "sana_software.txt",
+        "filePath": "C:\\MY-FOLDER\\SANA\\OWN-AI-ASSISTANT\\uploads\\sana_software.txt",
+        "pageNumber": 1,
+        "chunkIndex": 2
+      }
+    },
+    {
+      "id": "sana_software.txt-38",
+      "document": "f Things (IoT) IoT solutions include: Smart Monitoring Systems Sensor Integration Device Connectivity Remote Monitoring Industrial IoT Smart Automation Cloud-Based IoT Solutions 5. Software Testing & Quality Assurance Comprehensive QA services: Manual Testing Functional Testing Regression Testing Integration Testing System Testing Performance Testing Automation Testing User Acceptance Testing (UAT) 6. PCB Design & Hardware Engineering Hardware engineering services include: PCB Design PCB Layout Prototype Development Electronic Hardware Solutions Hardware Validation Technical Expertise Programming Languages C C++ Java Python JavaScript Front-End Technologies HTML5 CSS3 JavaScript (ES6+) React.js TypeScript Bootstrap Tailwind CSS Back-End Technologies Node.js Express.js PHP Databases MySQL Oracle SQL Server MongoDB Embedded Technologies Embedded C Embedded Linux RTOS Device Drivers Firmware Development Version Control Git GitHub Industry Expertise SaNa Software provides solutions in: Defense Embedded Systems Radar Support Systems Signal Processing Communication Systems Mission-Critical Applications Railway Railway Automation Safety Systems Embedded Applications Automotive Embedded",
+      "metadata": {
+        "sourceName": "sana_software.txt",
+        "filePath": "C:\\MY-FOLDER\\SANA\\OWN-AI-ASSISTANT\\uploads\\sana_software.txt",
+        "pageNumber": 1,
+        "chunkIndex": 3
+      }
+    },
+    {
+      "id": "sana_software.txt-39",
+      "document": "tems Radar Support Systems Signal Processing Communication Systems Mission-Critical Applications Railway Railway Automation Safety Systems Embedded Applications Automotive Embedded Electronics Vehicle Software Controller Development Industrial Automation PLC-Based Applications Process Automation Industrial Monitoring Healthcare Healthcare Information Systems Enterprise Applications Enterprise IT ERP CRM HRMS Business Applications Digital Portals Engineering Standards The company has experience working with engineering standards such as: DO-178B IEEE 12206 CENELEC These standards are commonly associated with safety-critical aerospace and railway software. Development Methodology The company follows a structured software development lifecycle: Requirement Analysis System Design Architecture Planning Development Code Review Unit Testing Integration Testing Quality Assurance Client Acceptance Testing Deployment Maintenance & Support Company Strengths Experienced engineering team Approximately 60 skilled professionals Expertise in embedded systems and enterprise software End-to-end software development lifecycle IoT and industrial automation capabilities Quality-focused engineering",
+      "metadata": {
+        "sourceName": "sana_software.txt",
+        "filePath": "C:\\MY-FOLDER\\SANA\\OWN-AI-ASSISTANT\\uploads\\sana_software.txt",
+        "pageNumber": 1,
+        "chunkIndex": 4
+      }
+    },
+    {
+      "id": "sana_software.txt-40",
+      "document": "professionals Expertise in embedded systems and enterprise software End-to-end software development lifecycle IoT and industrial automation capabilities Quality-focused engineering processes Customer-centric approach Multi-domain technical expertise Industries Served Defense Railways Automotive Industrial Automation Healthcare Manufacturing Enterprise IT Government Organizations Public Sector Undertakings (PSUs) Technologies Used React.js HTML5 CSS3 JavaScript TypeScript Node.js Express.js MongoDB Oracle MySQL Embedded C C++ Python Git & GitHub REST APIs IoT Platforms Contact Information SaNa Software Services Pvt. Ltd. Srinivasa Towers Neredmet X Road Malkajgiri Hyderabad, Telangana – 500056 India Website: https://www.sanasw.com Email: info@sanasw.com Phone: +91 7207143300 Company Summary SaNa Software Services Pvt. Ltd. is a Hyderabad-based IT and embedded systems company founded in 2010 by Mr. Ranga Reddy A. V., who serves as its CEO. With a team of approximately 60 employees (based on your information), the company delivers solutions in embedded systems, web and mobile development, IoT, software testing, and hardware engineering. It serves industries including defense,",
+      "metadata": {
+        "sourceName": "sana_software.txt",
+        "filePath": "C:\\MY-FOLDER\\SANA\\OWN-AI-ASSISTANT\\uploads\\sana_software.txt",
+        "pageNumber": 1,
+        "chunkIndex": 5
+      }
+    },
+    {
+      "id": "sana_software.txt-41",
+      "document": "formation), the company delivers solutions in embedded systems, web and mobile development, IoT, software testing, and hardware engineering. It serves industries including defense, railways, automotive, industrial automation, healthcare, and enterprise IT, focusing on quality, innovation, and customer satisfaction.",
+      "metadata": {
+        "sourceName": "sana_software.txt",
+        "filePath": "C:\\MY-FOLDER\\SANA\\OWN-AI-ASSISTANT\\uploads\\sana_software.txt",
+        "pageNumber": 1,
+        "chunkIndex": 6
+      }
+    },
+    {
+      "id": "Fictional_Krishna_Narsim_Legend.pdf-42",
+      "document": "The Chronicle of Krishna Narsim (Fictional) Disclaimer: This is a completely fictional story inspired by the style of historical biographies. It is not about a real person or historical events. Krishna Narsim was born in a village in the Deccan to Sailu and Sangamma . His father, Sailu, was respected for honesty and courage. Sailu was the son of Ashaiah and Nagamma , who were remembered for helping neighboring villages during difficult years of drought. From childhood Krishna displayed leadership, discipline, and a strong sense of justice. Village elders often trusted him to settle disputes fairly. As he grew older, he organized irrigation works, improved farming practices, and encouraged education for children. He believed that prosperity came through unity, hard work, and respect for every family. When bandits threatened nearby settlements, Krishna united volunteers from several villages to protect trade routes. Rather than seeking conquest, he focused on defending communities and restoring peace. His reputation spread because he preferred negotiation before conflict and rewarded courage, honesty, and public service. Krishna later married Narsamma , who became known for",
+      "metadata": {
+        "sourceName": "Fictional_Krishna_Narsim_Legend.pdf",
+        "filePath": "C:\\MY-FOLDER\\SANA\\OWN-AI-ASSISTANT\\uploads\\1786020359972-Fictional_Krishna_Narsim_Legend.pdf",
+        "pageNumber": 1,
+        "chunkIndex": 0
+      }
+    },
+    {
+      "id": "Fictional_Krishna_Narsim_Legend.pdf-43",
+      "document": "ace. His reputation spread because he preferred negotiation before conflict and rewarded courage, honesty, and public service. Krishna later married Narsamma , who became known for organizing food distribution, supporting widows, and encouraging girls' education. Together they established community granaries, repaired village tanks, planted thousands of trees, and promoted traditional arts and festivals. In his later years Krishna created a village council where decisions were discussed openly. He insisted that taxes collected for public works be recorded transparently. His guidance inspired future generations to value fairness, responsibility, and service over personal gain. Though entirely fictional, the story portrays Krishna Narsim as a legendary community leader whose greatest victories came from wisdom, cooperation, and compassion rather than empire-building.",
+      "metadata": {
+        "sourceName": "Fictional_Krishna_Narsim_Legend.pdf",
+        "filePath": "C:\\MY-FOLDER\\SANA\\OWN-AI-ASSISTANT\\uploads\\1786020359972-Fictional_Krishna_Narsim_Legend.pdf",
+        "pageNumber": 1,
+        "chunkIndex": 1
+      }
+    }
+  ]
+}

@@ -1,0 +1,119 @@
+Generating UML Diagrams in IBM Rhapsody
+After Reverse Engineering Java Code
+ 
+A Step-by-Step User Guide
+Applies to: IBM Engineering Systems Design Rhapsody – Developer for Java, Version 10.0.3
+Covers: Class (Object Model) Diagrams • Use Case Diagrams • Sequence Diagrams
+Table of Contents
+1.	Overview: What Reverse Engineering Actually Produces
+2.	Step 1 – Reverse Engineer the Java Source
+3.	Step 2 – Create and Populate a Class Diagram
+4.	Step 3 – Create a Use Case Diagram (Manual)
+5.	Step 4 – Create and Populate a Sequence Diagram
+5b. How Class Relationships Appear on Diagrams (Auto-Link vs Manual Link)
+6.	Quick Reference Table
+7.	Troubleshooting: Empty Box on Diagram 
+1.	Overview: What Reverse Engineering Actually Produces
+When you run Reverse Engineer → Java in Rhapsody, the tool reads your source code and builds model elements — packages, classes, attributes, operations, and relationships (inheritance, associations). These elements appear in the Browser tree on the left side of Rhapsody.
+However, Rhapsody does not automatically draw these elements onto a diagram canvas. The diagram that opens after reverse engineering typically shows only an empty package box, because a diagram is a separate, editable view of the model — you choose what to display on it.
+This means: after reverse engineering, you must manually build each diagram type (Class, Use Case, Sequence, etc.) by dragging model elements onto a diagram, or by using Rhapsody's diagram-population commands described below.
+Key point: Use Case diagrams cannot be generated from source code at all, because actors and use cases are requirements-level concepts with no direct equivalent in Java syntax. These must always be created manually.
+
+About the "Add New" menu: When you right-click a package in the Browser and choose Add New, the flyout list mixes two different kinds of things. The upper part (Variable, Event, Package, Class, Object, Interface, Actor, Use Case, Requirement, etc.) adds a single bare model element directly into the Browser tree — not a diagram. The actual diagrams live one level deeper, under the Diagrams submenu near the bottom of the same flyout. Hover over Diagrams to open a second flyout containing Object Model Diagram, Use Case Diagram, Sequence Diagram, Statechart Diagram, Activity Diagram, and others. All diagram creation steps in this manual use this Add New → Diagrams → [Diagram Type] path.
+2.	Step 1 – Reverse Engineer the Java Source
+1.	Open Rhapsody 10.0.3 and create or open your project.
+2.	Go to the menu bar: File → Reverse Engineer → Java...
+3.	In the Reverse Engineering wizard, browse to and select the root folder containing your .javasource files (or select the compiled .class files / JAR, depending on what you have available).
+4.	Choose the target package/component in your model where the reverse-engineered elementsshould be placed.
+5.	Review the options in the wizard (e.g., include comments, generate default diagrams if offered) andclick Next through the wizard.
+6.	Click Finish to run the reverse engineering process.
+7.	When it completes, expand the Browser tree on the left. You should see your packages and classes listed under Packages → [your package] → Classes.
+3.	Step 2 – Create and Populate a Class Diagram
+In Rhapsody, a Class Diagram is called an Object Model Diagram. Follow these steps to create one and fill it with your reverse-engineered classes.
+3.1	Create a new Object Model Diagram
+1.	In the Browser tree, right-click the package you want to diagram (for example, awt or swing).
+2.	Select Add New → Diagrams → Object Model Diagram from the context menu (hover over the Diagrams submenu first, then pick Object Model Diagram from the flyout list).
+3.	Give the diagram a name (e.g., "awt" or "AWT_ClassDiagram") and press Enter.
+4.	Double-click the new diagram in the Browser tree to open it — it will open as an empty canvas (thisis expected and normal at this stage).
+3.2	Populate the diagram with classes
+1.	Make sure the new diagram is open and active (its tab is selected in the main editing area on theright).
+2.	In the Browser tree, expand the same package (e.g., awt) until you see its Classes folder underneath it.
+3.	Click a class to select it. Hold Ctrl and click additional classes to multi-select several at once, or click directly on the Classes folder itself to select and add all classes in it together.
+4.	Left-click and drag the selected class(es) from the Browser directly onto the open diagram canvas(the white grid area on the right).
+5.	Release the mouse button over the canvas — Rhapsody will draw each class as a box, usuallyshowing its name, attributes, and operations.
+6.	If the classes have inheritance, dependency, or association relationships already defined in themodel (for example, as seen earlier in a class's Relations tab), right-click on empty space inside the diagram canvas and choose Add → Relations (or similar) to auto-draw the existing connecting lines between the classes now on the diagram.
+7.	Use Layout → Auto Layout (or the auto-arrange icon on the diagram toolbar) to neatly organize the boxes if they overlap.
+8.	Save the diagram: File → Save or Ctrl+S.
+Note on sub-packages: If the package you diagrammed has sub-packages (for example, awt may contain event and geom), dragging the parent package's own Classes folder will not automatically bring in classes from those sub-packages. To include them on the same diagram, separately expand each sub-package (e.g., event, geom), open its own Classes folder, and drag those classes onto the diagram as well.
+
+Tip: If relationships do not appear automatically, right-click on empty space inside the diagram canvas and look for Add → Relations or similar, which draws existing model relationships between the classes already placed on the diagram.
+4.	Step 3 – Create a Use Case Diagram (Manual)
+Use Case diagrams describe system requirements from a user/actor perspective. They are never generated by reverse engineering and must be built by hand based on your understanding of what the system does.
+1.	In the Browser tree, right-click the package or model node where you want the diagram.
+2.	Select Add New → Diagrams → Use Case Diagram (hover over the Diagrams submenu first, then pick Use Case Diagram from the flyout list).
+3.	Name the diagram (e.g., "System_UseCases") and double-click to open it.
+4.	On the diagram toolbar (top of the drawing area), select the Actor tool and click on the canvas to place an actor. Repeat for each actor (person, external system) that interacts with your application.
+5.	Select the Use Case tool (oval shape) and click on the canvas to place each use case representing a function or goal of the system.
+6.	Select the Association tool and draw a line from each actor to the use case(s) it participates in.
+7.	Optionally use Include and Extend relationship tools to show relationships between use cases.
+8.	Rename each element by double-clicking its label and typing a descriptive name.
+9.	Save the diagram. 
+5.	Step 4 – Create and Populate a Sequence Diagram
+Sequence diagrams show the order of messages exchanged between objects. Like class diagrams, the lifelines can be dragged in from reverse-engineered classes, but the messages between them are typically added by hand based on the operations you see in each class.
+5.1	Create the diagram
+1.	Right-click the target package in the Browser tree.
+2.	Select Add New → Diagrams → Sequence Diagram (hover over Diagrams to open the flyout, then choose Sequence Diagram).
+3.	Name it (e.g., "Login_Sequence") and double-click to open the empty diagram.
+5.2	Add lifelines (objects)
+1.	In the Browser tree, select the class(es) whose instances participate in this interaction.
+2.	Drag each class from the Browser onto the sequence diagram canvas.
+3.	Rhapsody creates a lifeline (a vertical dashed line) for each object, labeled with the class name.
+4.	Rename an individual lifeline if you want it to represent a specific instance (e.g., "loginWindow :
+WindowAdapter") by double-clicking its header box.
+5.3	Add messages between lifelines
+1.	On the diagram toolbar, select a message tool — typically Operation Call (synchronous), Asynchronous Message, or Return Message.
+2.	Click the sending lifeline, then click the receiving lifeline to draw the message arrow.
+3.	Rhapsody will prompt you to pick an existing operation from the target class (from those found during reverse engineering) or type a new message label.
+4.	Repeat to build out the full interaction, adding messages top-to-bottom in the order they occur.
+5.	Use the Create Return Message tool for return values where relevant.
+6.	Save the diagram.
+Note on automatic sequence generation: Rhapsody can auto-generate sequence diagrams from actual program execution using Animation mode, but this requires the model/code to be built and run within Rhapsody's animated debugging environment. For code that was only statically reverse engineered (not built and run through Rhapsody), building the sequence diagram by hand as above is the standard approach.
+5b. How Class Relationships Appear on Diagrams
+A common question: when you drag two related classes onto the same diagram, does Rhapsody automatically draw the connecting line between them? The answer depends on whether the relationship already exists in the model or not.
+5b.1 Case A – The relationship already exists in the model
+Reverse engineering captures relationships that are visible in the code (dependencies, associations, inheritance, imports, etc.) and stores them in the model, even though no diagram shows them yet. You can check this before building a diagram:
+1.	In the Browser, right-click the class (e.g., ActionEvent) and choose Features... (or double-click the class to open its Features dialog).
+2.	Click the Relations tab. This lists every relationship the class already has, its type (Dependency, Association, Generalization, etc.), its direction, and the class at the other end.
+3.	Note the names of the related classes (e.g., MainGUI, NavButton, RoundedButton) — these arethe ones you need to place on the same diagram to see the link drawn.
+Once you know which classes are linked, draw them together:
+1.	Open (or create) an Object Model Diagram.
+2.	Drag the first class (e.g., ActionEvent) onto the canvas.
+3.	Drag each related class listed in its Relations tab (e.g., MainGUI, NavButton, RoundedButton,RoundedLineBorder, StatusBadgeRenderer) onto the same canvas.
+4.	Right-click on empty space inside the diagram canvas and choose Add → Relations (sometimes shown as Add Related Elements or found under the diagram's right-click menu, depending on version/build). This tells Rhapsody to draw any existing relationships between the elements already placed on the diagram.
+5.	If the command above is not available in your build, try selecting all the classes on the diagram(Ctrl+A or rubber-band select), then right-click and check for Show Relations or Auto Arrange style options.
+6.	The dependency/association arrows should now appear connecting the boxes, matching what yousaw in the class's Relations tab.
+Important: Simply dragging two related classes onto the same diagram does not always auto-draw the line immediately in every Rhapsody build — you typically still need to trigger Add Relations (Step 4 above) once.
+After that, the link is visible and stays on the diagram when you save it.
+5b.2 Case B – You want to create a brand-new relationship manually
+If two classes are not linked in the model at all (nothing shows in the Relations tab) and you want to define a new relationship between them — for example while designing new functionality, not just reviewing reverse-engineered code — draw it directly on the diagram:
+1.	Place both classes on the same Object Model Diagram (drag them from the Browser as usual).
+2.	On the diagram toolbar (top of the drawing area), select the relationship tool you need: Association, Dependency, Generalization (inheritance), Aggregation, or Composition. These icons are usually grouped together near the top of the diagram toolbar.
+3.	Click on the source class box, then click on the target class box. Rhapsody draws the connectingline and simultaneously creates the relationship in the underlying model (it will now also show up in the class's Relations tab).
+4.	Double-click the new relationship line if you need to set its name, multiplicity, or navigation direction(via the Features dialog that opens).
+5.	Save the diagram: File → Save or Ctrl+S.
+Tip: Case A (showing existing relationships) is what you need for reverse-engineered code, since the real dependencies between your classes were already detected from the source. Case B (drawing new relationships) is for when you are extending or redesigning the model yourself.
+6.	Quick Reference Table
+Diagram Type	Auto-created by Reverse Engineering?	How to Build It
+Class / Object Model
+Diagram	No (classes exist in model only)	Add New Diagram, then drag classes from Browser onto canvas
+Use Case Diagram	No – not derivable from code	Add New Diagram, manually place Actors and Use Cases, connect with
+Associations
+Sequence Diagram	No (unless using Animation mode)	Add New Diagram, drag classes in as lifelines, manually add messages
+7.	Troubleshooting: Empty Box on Diagram
+If, after reverse engineering, your diagram shows only a single empty box (e.g., a package or
+RoundRectangle2D box with nothing inside), this is expected behavior, not an error. It means the model elements were created successfully, but no diagram has been populated with them yet.
+To fix this:
+1.	Confirm the classes exist: expand the package in the Browser tree and check under its Classes folder.
+2.	Open (or create) the diagram you want to use, and drag the classes from the Browser onto thecanvas as described in Section 3.2.
+3.	If dragging does not seem to work, make sure you are dragging from the Browser tree (left panel) onto the diagram canvas (right panel), not onto another tree node.
+4.	Use Layout → Auto Layout after adding elements if the diagram looks cluttered or overlapping.

@@ -1,0 +1,393 @@
+{
+  "session-1786011864674-oa2gzx": {
+    "activeThreadId": "thread-1786096016655-8w2zu9",
+    "updatedAt": 1786096255299,
+    "threads": {
+      "thread-1786017110634-z5nyjn": {
+        "id": "thread-1786017110634-z5nyjn",
+        "title": "hello",
+        "messages": [
+          {
+            "role": "user",
+            "content": "hello"
+          },
+          {
+            "role": "assistant",
+            "content": "Hello! It seems we're starting our conversation from scratch. How can I assist you today?"
+          },
+          {
+            "role": "user",
+            "content": "do you about shankar narsim"
+          },
+          {
+            "role": "assistant",
+            "content": "I have information available on Shankar Narsim, a MERN Stack Developer with over 3 years of professional experience in building scalable, responsive, and user-friendly web applications using modern JavaScript frameworks.\n\nFrom what I can gather from the provided documents, here are some key points about Shankar Narsim:\n\n* He is based in Hyderabad, India.\n* His current role is with SANA Software (Client: BEL), a private limited company providing technology solutions across multiple domains, including Defense, Railways, Automotive, Industrial Automation, Healthcare, Enterprise IT, and IoT.\n* He has experience working on various technologies such as React.js, Node.js, Express.js, MongoDB, JavaScript (ES6+), Python, and more.\n* He is skilled in collaborating with cross-functional teams in fast-paced environments.\n\nWould you like to know more about Shankar Narsim or his expertise?"
+          },
+          {
+            "role": "user",
+            "content": "hello world in python"
+          },
+          {
+            "role": "assistant",
+            "content": "A simple yet classic request!\n\nThe \"hello world\" program in Python is a straightforward one. Here it is:\n```\nprint(\"Hello, World!\")\n```\nThis will output the string \"Hello, World!\" to the console.\n\nIf you're curious about how it works, here's a brief explanation:\n\n* The `print()` function is used to display output in Python.\n* When you enclose a string in quotes (e.g., \"Hello, World!\"), Python recognizes it as a string literal and treats it as such.\n* The `print()` function takes the string as an argument and displays its contents on the console.\n\nThat's it!\n\nWould you like to know more about Python basics or is there something else I can help you with?"
+          },
+          {
+            "role": "user",
+            "content": "do you know about shivaji maharaj"
+          },
+          {
+            "role": "assistant",
+            "content": "Shivaji Maharaj is a legendary figure in Indian history and mythology. He was a Maratha king who ruled the Maratha Empire from 1674 to 1680, and is considered one of the most iconic figures in Indian history.\n\nShivaji was born as Chhatrapati Shivaji Rao Bhonsle on April 19, 1630, in the Shahpur Fort in Pune, Maharashtra. He was the scion of the Bhonsle dynasty, which ruled the Maratha Empire. As a young man, Shivaji was trained in martial arts and governance by his father, Shivajirao Bhonsle.\n\nShivaji's rise to power began when he succeeded his father as the ruler of the Shahpur Fort. He then went on to capture several forts and territories from the Mughal Empire, which had ruled much of India at the time. Shivaji's military campaigns were marked by their bravery and strategic brilliance, and he became known for his use of guerrilla warfare and hit-and-run tactics.\n\nShivaji is also famous for his devotion to Hinduism and his efforts to promote it in Maharashtra. He built several temples and shrines during his reign, including the Shani Shingnapur temple, which is still visited by devotees today.\n\nDespite his many achievements, Shivaji's life was cut short when he was poisoned by the Mughal governor of Pune, Malik Ambar, in 1680. However, his legacy lived on, and he remained a revered figure in Indian history for centuries.\n\nShivaji has been portrayed in several films, including \"Shivaji\" (1958), \"Taxi No. 1 Babu\" (2003), and \"Shivaajee\" (2018). He is also the namesake of several cities and institutions in India, including the city of Shivajinagar in Pune, which was renamed in his honor.\n\nWould you like to know more about Shivaji Maharaj or Indian history?"
+          },
+          {
+            "role": "user",
+            "content": "do crud operation in javascript"
+          },
+          {
+            "role": "assistant",
+            "content": "CRUD (Create, Read, Update, Delete) operations are a fundamental concept in web development.\n\nIn JavaScript, CRUD operations can be implemented using various techniques and frameworks. Here's an overview of the most common approach:\n\n**1. Fetch API or XMLHttpRequest**\n\nYou can use the Fetch API or XMLHttpRequest to perform CRUD operations by sending HTTP requests to a server. This method is simple but not very efficient for complex applications.\n\n```javascript\n// Create\nfetch('https://example.com/api/users', {\n  method: 'POST',\n  headers: { 'Content-Type': 'application/json' },\n  body: JSON.stringify({ name: 'John Doe', email: 'john.doe@example.com' }),\n})\n.then((response) => response.json())\n.then((data) => console.log(data));\n\n// Read\nfetch('https://example.com/api/users/1')\n  .then((response) => response.json())\n  .then((data) => console.log(data));\n\n// Update\nfetch('https://example.com/api/users/1', {\n  method: 'PUT',\n  headers: { 'Content-Type': 'application/json' },\n  body: JSON.stringify({ name: 'Jane Doe', email: 'jane.doe@example.com' }),\n})\n.then((response) => response.json())\n.then((data) => console.log(data));\n\n// Delete\nfetch('https://example.com/api/users/1', {\n  method: 'DELETE',\n})\n.then((response) => console.log(response));\n```\n\n**2. Express.js and Node.js**\n\nExpress.js is a popular Node.js framework for building web applications. You can use it to create RESTful APIs that support CRUD operations.\n\n```javascript\nconst express = require('express');\nconst app = express();\nconst port = 3000;\n\napp.use(express.json());\n\n// Create\napp.post('/api/users', (req, res) => {\n  const { name, email } = req.body;\n  // save user to database\n  res.send({ message: 'User created successfully' });\n});\n\n// Read\napp.get('/api/users/:id', (req, res) => {\n  const id = req.params.id;\n  // retrieve user from database\n  res.send({ message: 'User retrieved successfully' });\n});\n\n// Update\napp.put('/api/users/:id', (req, res) => {\n  const id = req.params.id;\n  const { name, email } = req.body;\n  // update user in database\n  res.send({ message: 'User updated successfully' });\n});\n\n// Delete\napp.delete('/api/users/:id', (req, res) => {\n  const id = req.params.id;\n  // delete user from database\n  res.send({ message: 'User deleted successfully' });\n});\n\napp.listen(port, () => console.log(`Server started on port ${port}`));\n```\n\n**3. MERN Stack**\n\nThe MERN Stack (MongoDB, Express.js, React.js, Node.js) is a popular tech stack for building web applications. You can use it to create CRUD operations using MongoDB as the database and Express.js as the backend.\n\n```javascript\n// Create\napp.post('/api/users', (req, res) => {\n  const { name, email } = req.body;\n  // save user to MongoDB\n  User.create({ name, email })\n    .then((user) => res.send({ message: 'User created successfully' }))\n    .catch((error) => console.error(error));\n});\n\n// Read\napp.get('/api/users/:id', (req, res) => {\n  const id = req.params.id;\n  // retrieve user from MongoDB\n  User.findById(id)\n    .then((user) => res.send({ message: 'User retrieved successfully' }))\n    .catch((error) => console.error(error));\n});\n\n// Update\napp.put('/api/users/:id', (req, res) => {\n  const id = req.params.id;\n  const { name, email } = req.body;\n  // update user in MongoDB\n  User.findByIdAndUpdate(id, { name, email }, { new: true })\n    .then((user) => res.send({ message: 'User updated successfully' }))\n    .catch((error) => console.error(error));\n});\n\n// Delete\napp.delete('/api/users/:id', (req, res) => {\n  const id = req.params.id;\n  // delete user from MongoDB\n  User.findByIdAndRemove(id)\n    .then((user) => res.send({ message: 'User deleted successfully' }))\n    .catch((error) => console.error(error));\n});\n```\n\nThese are just a few examples of how you can implement CRUD operations in JavaScript. The best approach depends on your specific use case and requirements."
+          },
+          {
+            "role": "user",
+            "content": "who is narsim krishna"
+          },
+          {
+            "role": "assistant",
+            "content": "I couldn't find any information about a person named Narsim Krishna. It seems that this person is not a real historical figure or public figure.\n\nThe conversations we had earlier mentioned Shankar Narsim, but I couldn't find any information about a person named Narsim Krishna. It's possible that you may be thinking of a different person or mixing up names.\n\nIf you could provide more context or clarify who Narsim Krishna is, I'll do my best to help you with your question."
+          }
+        ],
+        "source": "documents",
+        "sources": [
+          "Fictional_Krishna_Narsim_Legend.pdf",
+          "Shankar_Narsim_Resume_Content.txt"
+        ],
+        "startedAt": "2026-08-06T11:51:50.634Z",
+        "updatedAt": "2026-08-06T12:51:16.375Z"
+      },
+      "thread-1786018566954-g85a9t": {
+        "id": "thread-1786018566954-g85a9t",
+        "title": "hello",
+        "messages": [
+          {
+            "role": "user",
+            "content": "hello"
+          },
+          {
+            "role": "assistant",
+            "content": "Hello, welcome! It seems like we just started our conversation. How can I assist you today?"
+          }
+        ],
+        "source": "general",
+        "sources": [],
+        "startedAt": "2026-08-06T12:16:06.955Z",
+        "updatedAt": "2026-08-06T12:16:12.152Z"
+      },
+      "thread-1786018578445-1kj1qc": {
+        "id": "thread-1786018578445-1kj1qc",
+        "title": "hello",
+        "messages": [
+          {
+            "role": "user",
+            "content": "hello"
+          },
+          {
+            "role": "assistant",
+            "content": "Hello! How can I assist you today?"
+          }
+        ],
+        "source": "general",
+        "sources": [],
+        "startedAt": "2026-08-06T12:16:18.447Z",
+        "updatedAt": "2026-08-06T12:16:20.351Z"
+      },
+      "thread-1786020711347-o8dthy": {
+        "id": "thread-1786020711347-o8dthy",
+        "title": "who is narsim krishna",
+        "messages": [
+          {
+            "role": "user",
+            "content": "who is narsim krishna"
+          },
+          {
+            "role": "assistant",
+            "content": "Based on the provided context, Narsim Krishna appears to be a fictional character. He is the main subject of \"The Chronicle of Krishna Narsim\" (Fictional_Krishna_Narsim_Legend.pdf), which is a completely fictional story inspired by the style of historical biographies. According to the story, Narsim Krishna was born in a village in the Deccan region and grew up to become a respected community leader known for his wisdom, cooperation, and compassion. He is often mentioned alongside his wife, Narsamma, who is also described as a notable figure in the community. It's worth noting that there is no connection between this fictional character and Shankar Narsim, whose resume content is provided separately."
+          }
+        ],
+        "source": "documents",
+        "sources": [
+          "Fictional_Krishna_Narsim_Legend.pdf",
+          "Shankar_Narsim_Resume_Content.txt"
+        ],
+        "startedAt": "2026-08-06T12:51:51.347Z",
+        "updatedAt": "2026-08-06T12:52:48.282Z"
+      },
+      "thread-1786080888629-agcsxw": {
+        "id": "thread-1786080888629-agcsxw",
+        "title": "ibm rtrt java stub class example",
+        "messages": [
+          {
+            "role": "user",
+            "content": "ibm rtrt java stub class example"
+          },
+          {
+            "role": "assistant",
+            "content": "Based on the context provided, it appears that we are discussing IBM Rhapsody and creating UML diagrams from Java code.\n\nTo answer your user question: \"ibm rtrt java stub class example\", I would need more information about what a stub class is and how it relates to the process of reverse engineering Java code in IBM Rhapsody.\n\nHowever, I can provide some general guidance on creating a stub class in IBM Rhapsody. In the context of reverse engineering Java code, a stub class is typically created to represent an interface or abstract class that is not fully implemented.\n\nHere's an example of how you might create a stub class in IBM Rhapsody:\n\n1. After running the \"Reverse Engineer → Java\" command in Rhapsody, expand the Browser tree on the left and find the package that contains the classes you want to diagram.\n2. Right-click the package and select \"Add New\" > \"Diagrams\" > \"Object Model Diagram\".\n3. Name the diagram (e.g., \"JavaStubClassDiagram\") and press Enter.\n4. Double-click the new diagram in the Browser tree to open it, which will be an empty canvas at this stage.\n5. To create a stub class, you can either:\n* Drag and drop a class from the Browser tree onto the diagram, making sure to select the \"Stub\" checkbox when doing so (this will create a stub class with a comment indicating that it is incomplete).\n* Right-click in the diagram canvas and select \"Add New\" > \"Class\", then fill in the details of the stub class.\n\nKeep in mind that creating a stub class is typically done for classes that are not fully implemented or have unclear functionality, as these classes may be subject to change or may require additional implementation details."
+          },
+          {
+            "role": "user",
+            "content": "i am not talking about rhapsody i am saying about ibm rtrt"
+          },
+          {
+            "role": "assistant",
+            "content": "I apologize for the misunderstanding earlier. Since I don't have any context from the uploaded document, I'm starting from scratch.\n\nRegarding IBM RTRT (Real-Time Router and Translator), I'd like to clarify that my previous responses were based on general information about creating UML diagrams in IBM Rhapsody. However, since you specifically mentioned IBM RTRT, I'll need more information about what you're trying to achieve or what the context is.\n\nCould you please provide more details about your question or the issue you're facing with IBM RTRT? What do you mean by \"stub class example\" in this context? Are you trying to create a stub class for a specific Java component or interface in IBM RTRT?"
+          },
+          {
+            "role": "user",
+            "content": "rtrt is rational test real time"
+          },
+          {
+            "role": "assistant",
+            "content": "I apologize for not making the connection earlier. RTRT stands for Rational Test Real-Time, which was a testing tool from IBM Rational.\n\nRegarding your question about creating a stub class example in RTRT, I'm still unsure what you're asking. It seems that RTRT is an older tool and not as widely used as other IBM Rational products like Rhapsody or Rational Software Architect.\n\nCan you please provide more context or information about what you mean by \"stub class\" in the context of RTRT? Are you trying to create a stub class for a specific component or interface in your test suite?\n\nIf I'm correct, and RTRT is an older tool, my previous knowledge might not be applicable. I'd like to start fresh and try to understand what you're asking about creating a stub class example in RTRT.\n\nAre there any documentation or references available that might help clarify the concept of stub classes in RTRT?"
+          },
+          {
+            "role": "user",
+            "content": "console.log(a.toUpperCase()); var a = \"Hello\"; correct this code"
+          },
+          {
+            "role": "assistant",
+            "content": "Now that we have some context about the user's background and experience with Full Stack Development, I can try to provide more relevant guidance.\n\nRegarding the code snippet you provided, `console.log(a.toUpperCase());` is a simple JavaScript statement that converts the string variable `a` to uppercase using the `toUpperCase()` method and then logs it to the console.\n\nHowever, since this is a simple console.log statement, there's no error or compilation issue. It should run without any problems.\n\nIf you're trying to get help with this code in the context of IBM RTRT (Rational Test Real-Time), I couldn't find any direct connection between the provided JavaScript code and RTRT. \n\nIn that case, the code snippet appears to be a standard JavaScript example for demonstrating the `toUpperCase()` method, which is commonly used in web development.\n\nIf you have any further questions about this specific code or would like help with anything else, feel free to ask!"
+          }
+        ],
+        "source": "documents",
+        "sources": [
+          "sana_software.txt",
+          "Shankar_Narsim_Resume_Content.txt",
+          "Shankar_data.txt"
+        ],
+        "startedAt": "2026-08-07T05:34:48.629Z",
+        "updatedAt": "2026-08-07T06:16:13.736Z"
+      },
+      "thread-1786083377465-i7qkyc": {
+        "id": "thread-1786083377465-i7qkyc",
+        "title": "give me palindrome in c language",
+        "messages": [
+          {
+            "role": "user",
+            "content": "give me palindrome in c language"
+          },
+          {
+            "role": "assistant",
+            "content": "A nice simple one!\n\nHere's a C program that prints out \"Madam\" which is a palindrome:\n\n```c\n#include <stdio.h>\n\nint main() {\n    printf(\"Madam\\n\");\n    return 0;\n}\n```\n\nThis program simply prints the string \"Madam\". However, if you want to create a function in C that checks whether a given string is a palindrome or not, here's an example:\n\n```c\n#include <stdio.h>\n#include <string.h>\n\nint is_palindrome(const char *s) {\n    int start = 0;\n    int end = strlen(s) - 1;\n\n    while (start < end) {\n        if (*s == *s + strlen(s) - 1 - start) {\n            start++;\n        } else {\n            return 0; // not a palindrome\n        }\n    }\n\n    return 1; // it's a palindrome\n}\n\nint main() {\n    const char *str = \"radar\";\n    if (is_palindrome(str)) {\n        printf(\"%s is a palindrome\\n\", str);\n    } else {\n        printf(\"%s is not a palindrome\\n\", str);\n    }\n    return 0;\n}\n```\n\nThis function works by comparing characters from the start and end of the string, moving towards the center. If all pairs of characters match, it's a palindrome; otherwise, it's not."
+          },
+          {
+            "role": "user",
+            "content": "No. The second program is not correct. There is a mistake in the comparison inside the while loop."
+          },
+          {
+            "role": "assistant",
+            "content": "It seems that the second C program I provided earlier has an error in the comparison inside the while loop.\n\nHere's a corrected version of the `is_palindrome` function:\n\n```c\nint is_palindrome(const char *s) {\n    int start = 0;\n    int end = strlen(s) - 1;\n\n    while (start < end) {\n        if (*s == *(s + end - start)) { // Corrected comparison\n            start++;\n        } else {\n            return 0; // not a palindrome\n        }\n    }\n\n    return 1; // it's a palindrome\n}\n```\n\nIn the corrected version, I changed `*s == *s + strlen(s) - 1 - start` to `*(s + end - start)` to correctly compare characters from the start and end of the string. This should fix the issue with the second program not correctly identifying palindromes."
+          },
+          {
+            "role": "user",
+            "content": "what is you name"
+          },
+          {
+            "role": "assistant",
+            "content": "I am Sana AI Assistant, your offline AI assistant. I can help you chat, answer questions, and work with your uploaded documents locally."
+          },
+          {
+            "role": "user",
+            "content": "do you know telangana cm"
+          },
+          {
+            "role": "assistant",
+            "content": "The current Chief Minister of Telangana is K. Chandrashekar Rao (KCR). He has been serving as the Chief Minister since June 2018 and is also the leader of the Telangana Rashtra Samithi (TRS) party. If you're referring to a specific incident or issue, I'd be happy to try and provide more information."
+          },
+          {
+            "role": "user",
+            "content": "in 2026"
+          },
+          {
+            "role": "assistant",
+            "content": "I'm an offline AI assistant, so I don't have real-time access to future events or information beyond my knowledge cutoff date. However, I can suggest some possible sources where you may be able to find information about Telangana CM in 2026:\n\n1. Official government websites: You can check the official website of the Government of Telangana for updates on the Chief Minister.\n2. News articles: Look for news articles from reputable sources that cover politics and governance in Telangana.\n3. Online archives: Check online archives of newspapers, magazines, or other publications that may have coverage of political events in 2026.\n\nIf you're looking for information about KCR's potential plans or policies in 2026, I can try to provide some general context based on his previous actions and statements as Chief Minister. However, please note that this would be speculative and not based on any concrete information."
+          },
+          {
+            "role": "user",
+            "content": "who you is pm"
+          },
+          {
+            "role": "assistant",
+            "content": "I don't have a specific answer to your question, as I'm an offline AI assistant and do not have real-time access to current events or information about the Prime Minister of India. My knowledge cutoff date is December 2023, and I may not be aware of any changes that occurred after that date. If you'd like to know more about past Prime Ministers of India or get general information, I'd be happy to help!"
+          },
+          {
+            "role": "user",
+            "content": "in 2022"
+          },
+          {
+            "role": "assistant",
+            "content": "Based on the provided resume context, it is not clear which year you are referring to (2022 or another). However, from Source 1 and Source 3, I can tell that Shankar worked at Medicover Corporate Office as a Full Stack Developer from August 2023 - December 2024. But if we look at July 2022 - May 2023 from the other sources, it might be related to 2022."
+          }
+        ],
+        "source": "documents",
+        "sources": [
+          "Shankar_Narsim_Resume_Content.txt",
+          "Shankar_data.txt"
+        ],
+        "startedAt": "2026-08-07T06:16:17.465Z",
+        "updatedAt": "2026-08-07T06:35:43.314Z"
+      },
+      "thread-1786092322422-5qu2kn": {
+        "id": "thread-1786092322422-5qu2kn",
+        "title": "explain about the ibm rtrt",
+        "messages": [
+          {
+            "role": "user",
+            "content": "explain about the ibm rtrt"
+          },
+          {
+            "role": "assistant",
+            "content": "I don't have verified information about IBM RTRT. Please share relevant documentation so I can give you an accurate answer."
+          },
+          {
+            "role": "user",
+            "content": "telangana capital"
+          },
+          {
+            "role": "assistant",
+            "content": "The uploaded document does not contain information about the Telangana Capital."
+          }
+        ],
+        "source": "documents",
+        "sources": [
+          "sana_software.txt"
+        ],
+        "startedAt": "2026-08-07T08:45:22.422Z",
+        "updatedAt": "2026-08-07T08:47:23.200Z"
+      },
+      "thread-1786096016655-8w2zu9": {
+        "id": "thread-1786096016655-8w2zu9",
+        "title": "telangana capital",
+        "messages": [
+          {
+            "role": "user",
+            "content": "telangana capital"
+          },
+          {
+            "role": "assistant",
+            "content": "Based on general knowledge (not from your documents), the capital of Telangana is Hyderabad."
+          },
+          {
+            "role": "user",
+            "content": "capital of odissa"
+          },
+          {
+            "role": "assistant",
+            "content": "The capital of Odisha is Bhubaneswar."
+          }
+        ],
+        "source": "general",
+        "sources": [],
+        "startedAt": "2026-08-07T09:46:56.655Z",
+        "updatedAt": "2026-08-07T09:50:55.298Z"
+      }
+    }
+  },
+  "session-1786685503052-6eagsi": {
+    "activeThreadId": "thread-1786706958860-dl4o0j",
+    "updatedAt": 1787038515134,
+    "threads": {
+      "thread-1786686226625-fwsylh": {
+        "id": "thread-1786686226625-fwsylh",
+        "title": "who are u",
+        "messages": [
+          {
+            "role": "user",
+            "content": "who are u"
+          },
+          {
+            "role": "assistant",
+            "content": "I am Sana AI Assistant, your offline AI assistant. I can help you chat, answer questions, and work with your uploaded documents locally."
+          }
+        ],
+        "source": "general",
+        "sources": [],
+        "startedAt": "2026-08-14T05:43:46.625Z",
+        "updatedAt": "2026-08-14T05:43:46.627Z"
+      },
+      "thread-1786706958860-dl4o0j": {
+        "id": "thread-1786706958860-dl4o0j",
+        "title": "who are u",
+        "messages": [
+          {
+            "role": "user",
+            "content": "who are u"
+          },
+          {
+            "role": "assistant",
+            "content": "I am Sana AI Assistant, your offline AI assistant. I can help you chat, answer questions, and work with your uploaded documents locally."
+          },
+          {
+            "role": "user",
+            "content": "who is the ceo of sana software"
+          },
+          {
+            "role": "assistant",
+            "content": "The CEO of SaNa Software Services Pvt. Ltd. is Mr. Ranga Reddy A. V."
+          },
+          {
+            "role": "user",
+            "content": "When is it established"
+          },
+          {
+            "role": "assistant",
+            "content": "The company SaNa Software Services Pvt. Ltd. was established in 2010."
+          },
+          {
+            "role": "user",
+            "content": "What products are availabe"
+          },
+          {
+            "role": "assistant",
+            "content": "According to Source 2, sana_software.txt (page 1), SaNa Software offers the following products:\n\n1. Embedded Systems Development:\n\t* Embedded Software Development\n\t* Firmware Development\n\t* Device Driver Development\n\t* Board Support Packages (BSP)\n\t* Embedded Linux RTOS Applications\n\t* Display Systems\n\t* Hardware-Software Integration\n2. Web Application Development:\n\t* Enterprise Applications\n\t* Business Portals\n\t* ERP Systems\n\t* CRM Applications\n\t* Admin Dashboards\n\t* E-Commerce Applications\n\t* Custom Web Solutions\n3. Mobile Application Development:\n\t* Android Apps\n\t* Business Apps\n\t* Enterprise Mobility\n\t* IoT Mobile Applications\n4. Internet of Things (IoT):\n\t* Smart Monitoring Systems\n\t* Sensor Integration\n\t* Device Connectivity\n\t* Remote Monitoring\n\t* Industrial IoT\n\t* Smart Automation\n\t* Cloud-Based IoT Solutions\n\nPlease note that the information may be subject to change, and it's always best to verify with the company directly for the most up-to-date information.\n\nAlso, I can see that Source 2 and Source 3 mention the same products, so I relied on one of the sources."
+          },
+          {
+            "role": "user",
+            "content": "where bel hyderabad loacted ?"
+          },
+          {
+            "role": "assistant",
+            "content": "TIER 1 — Not directly answered in the document context.\n\nTIER 2 — BEL Hyderabad, Bharat Electronics Limited, is located in Hyderabad, Telangana, India."
+          }
+        ],
+        "source": "documents",
+        "sources": [
+          "Shankar_Narsim_Resume_Content.txt",
+          "Shankar_data.txt"
+        ],
+        "startedAt": "2026-08-14T11:29:18.860Z",
+        "updatedAt": "2026-08-17T12:44:18.110Z"
+      },
+      "thread-1786968583384-pgdzpi": {
+        "id": "thread-1786968583384-pgdzpi",
+        "title": "what is 1+2",
+        "messages": [
+          {
+            "role": "user",
+            "content": "what is 1+2"
+          },
+          {
+            "role": "assistant",
+            "content": "The answer to the question \"what is 1+2\" is 3."
+          }
+        ],
+        "source": "documents",
+        "sources": [
+          "sana_software.txt",
+          "rhapsody-data.txt"
+        ],
+        "startedAt": "2026-08-17T12:09:43.386Z",
+        "updatedAt": "2026-08-17T12:10:36.197Z"
+      }
+    }
+  }
+}

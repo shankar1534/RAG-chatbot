@@ -1,0 +1,262 @@
+SaNa Software Services Pvt. Ltd.
+Company Overview
+
+SaNa Software Services Pvt. Ltd. is a Hyderabad-based technology company specializing in Embedded Systems, Enterprise Software Development, Web Applications, Mobile Applications, Internet of Things (IoT), Software Testing, PCB Design, and Digital Engineering Solutions. Founded in 2010, the company has built expertise in delivering software and engineering solutions for government organizations, public sector enterprises, and private industries.
+
+Today, SaNa Software is recognized for providing end-to-end technology solutions across multiple domains, including Defense, Railways, Automotive, Industrial Automation, Healthcare, Enterprise IT, and IoT.
+
+Company Information
+Particular	Details
+Company Name	SaNa Software Services Pvt. Ltd.
+Founded	2010
+Headquarters	Hyderabad, Telangana, India
+Industry	Information Technology & Software Services
+Company Type	Private Limited
+CEO & Founder	Mr. Ranga Reddy A. V.
+Number of Employees: 60
+Website	https://www.sanasw.com
+Email	info@sanasw.com
+About the CEO
+Mr. Ranga Reddy A. V.
+
+Founder & Chief Executive Officer (CEO)
+
+Mr. Ranga Reddy A. V. is the founder and CEO of SaNa Software Services Pvt. Ltd. With extensive experience in software engineering, embedded systems, and technology leadership, he has guided the company in delivering innovative software solutions for mission-critical industries.
+
+Under his leadership, SaNa Software has expanded its capabilities in:
+
+Embedded Software
+Defense Technologies
+Enterprise Applications
+Web Technologies
+IoT Solutions
+Industrial Automation
+Digital Transformation
+Research & Development
+
+His focus is on quality, innovation, customer satisfaction, and continuous improvement.
+
+Vision
+
+To become a globally recognized technology company delivering innovative, reliable, and high-quality software and engineering solutions that empower businesses and government organizations through digital transformation.
+
+Mission
+Deliver high-quality software solutions.
+Build innovative embedded systems.
+Develop customer-centric products.
+Ensure continuous technological innovation.
+Maintain excellence in engineering and quality standards.
+Build long-term customer relationships.
+Core Business Services
+1. Embedded Systems Development
+
+SaNa Software develops embedded software for various hardware platforms.
+
+Services include:
+
+Embedded Software Development
+Firmware Development
+Device Driver Development
+Board Support Packages (BSP)
+Embedded Linux
+RTOS Applications
+Display Systems
+Hardware-Software Integration
+2. Web Application Development
+
+The company develops secure and scalable web applications using modern technologies.
+
+Solutions include:
+
+Enterprise Applications
+Business Portals
+ERP Systems
+CRM Applications
+Admin Dashboards
+E-Commerce Applications
+Custom Web Solutions
+REST API Development
+3. Mobile Application Development
+
+Development of Android and cross-platform mobile applications for businesses and IoT ecosystems.
+
+Features include:
+
+Android Apps
+Business Apps
+Enterprise Mobility
+IoT Mobile Applications
+4. Internet of Things (IoT)
+
+IoT solutions include:
+
+Smart Monitoring Systems
+Sensor Integration
+Device Connectivity
+Remote Monitoring
+Industrial IoT
+Smart Automation
+Cloud-Based IoT Solutions
+5. Software Testing & Quality Assurance
+
+Comprehensive QA services:
+
+Manual Testing
+Functional Testing
+Regression Testing
+Integration Testing
+System Testing
+Performance Testing
+Automation Testing
+User Acceptance Testing (UAT)
+6. PCB Design & Hardware Engineering
+
+Hardware engineering services include:
+
+PCB Design
+PCB Layout
+Prototype Development
+Electronic Hardware Solutions
+Hardware Validation
+Technical Expertise
+Programming Languages
+C
+C++
+Java
+Python
+JavaScript
+Front-End Technologies
+HTML5
+CSS3
+JavaScript (ES6+)
+React.js
+TypeScript
+Bootstrap
+Tailwind CSS
+Back-End Technologies
+Node.js
+Express.js
+PHP
+Databases
+MySQL
+Oracle
+SQL Server
+MongoDB
+Embedded Technologies
+Embedded C
+Embedded Linux
+RTOS
+Device Drivers
+Firmware Development
+Version Control
+Git
+GitHub
+Industry Expertise
+
+SaNa Software provides solutions in:
+
+Defense
+Embedded Systems
+Radar Support Systems
+Signal Processing
+Communication Systems
+Mission-Critical Applications
+Railway
+Railway Automation
+Safety Systems
+Embedded Applications
+Automotive
+Embedded Electronics
+Vehicle Software
+Controller Development
+Industrial Automation
+PLC-Based Applications
+Process Automation
+Industrial Monitoring
+Healthcare
+Healthcare Information Systems
+Enterprise Applications
+Enterprise IT
+ERP
+CRM
+HRMS
+Business Applications
+Digital Portals
+Engineering Standards
+
+The company has experience working with engineering standards such as:
+
+DO-178B
+IEEE 12206
+CENELEC
+
+These standards are commonly associated with safety-critical aerospace and railway software.
+
+Development Methodology
+
+The company follows a structured software development lifecycle:
+
+Requirement Analysis
+System Design
+Architecture Planning
+Development
+Code Review
+Unit Testing
+Integration Testing
+Quality Assurance
+Client Acceptance Testing
+Deployment
+Maintenance & Support
+Company Strengths
+Experienced engineering team
+Approximately 60 skilled professionals
+Expertise in embedded systems and enterprise software
+End-to-end software development lifecycle
+IoT and industrial automation capabilities
+Quality-focused engineering processes
+Customer-centric approach
+Multi-domain technical expertise
+Industries Served
+Defense
+Railways
+Automotive
+Industrial Automation
+Healthcare
+Manufacturing
+Enterprise IT
+Government Organizations
+Public Sector Undertakings (PSUs)
+Technologies Used
+React.js
+HTML5
+CSS3
+JavaScript
+TypeScript
+Node.js
+Express.js
+MongoDB
+Oracle
+MySQL
+Embedded C
+C++
+Python
+Git & GitHub
+REST APIs
+IoT Platforms
+Contact Information
+
+SaNa Software Services Pvt. Ltd.
+
+Srinivasa Towers
+Neredmet X Road
+Malkajgiri
+Hyderabad, Telangana – 500056
+India
+
+Website: https://www.sanasw.com
+Email: info@sanasw.com
+Phone: +91 7207143300
+
+Company Summary
+
+SaNa Software Services Pvt. Ltd. is a Hyderabad-based IT and embedded systems company founded in 2010 by Mr. Ranga Reddy A. V., who serves as its CEO. With a team of approximately 60 employees (based on your information), the company delivers solutions in embedded systems, web and mobile development, IoT, software testing, and hardware engineering. It serves industries including defense, railways, automotive, industrial automation, healthcare, and enterprise IT, focusing on quality, innovation, and customer satisfaction.

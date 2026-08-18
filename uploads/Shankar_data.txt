@@ -1,0 +1,205 @@
+**Shankar Narsim**
+
+**MERN Stack Developer | React.js · Node.js · Express.js · MongoDB**
+
+shankar.narsim4@gmail.com  | 
++91-9963901869  |  Hyderabad, India  |  [linkedin.com/in/shankar-n1534](https://linkedin.com/in/shankar-n1534)  |  [github.com/shankar1534](https://github.com/shankar1534)
+
+**PROFESSIONAL SUMMARY**
+
+Dedicated
+and detail-oriented MERN Stack Developer with over 3 years of professional
+experience at Metalok Solutions, Medicover Corporate Office, GVR Company, and
+currently working with SANA Software (Client: BEL). Proven ability to build
+scalable, responsive, and user-friendly web applications using modern
+JavaScript frameworks. Adept at collaborating with cross-functional teams in
+fast-paced environments.
+
+**TECHNICAL SKILLS**
+
+**Programming
+Languages: **JavaScript (ES6+), Python
+
+**Frontend:
+**React.js, Next.js, React Router,
+Redux Toolkit, Context API, HTML5, CSS3, Bootstrap, Tailwind CSS, Responsive
+Web Design, React Native
+
+**Backend:
+**Node.js, Express.js, RESTful API
+Development, JWT Authentication, API Integration, CRUD Operations,
+Authentication & Authorization, Asynchronous Programming (Promises,
+Async/Await), Socket.IO, WebSockets, JSON, npm
+
+**Database:
+**MongoDB, Mongoose, Oracle Database,
+MySQL
+
+**Version
+Control & Tools: **Git, GitHub,
+Postman, VS Code
+
+**Operating
+Systems: **Linux
+
+**Deployment:
+**Netlify, Vercel
+
+**Cloud:
+**AWS
+
+**PROFESSIONAL EXPERIENCE**
+
+**Full
+Stack Developer****                                                                                      December
+2025 – Present**
+
+*SANA Software (Client: BEL – Bharat Electronics Limited),
+Hyderabad*
+
+●       
+Currently developing a
+GPS-Based Employee Attendance System (MERN Stack) that allows employees to mark
+attendance only from authorized locations using GPS, featuring secure login,
+real-time location verification, attendance tracking, and an admin dashboard
+for monitoring employee records and reports.
+
+●       
+Developed an offline AI
+chatbot using Node.js with persistent chat history, reducing dependency on
+internet connectivity for internal users.
+
+●       
+Developed a real-time
+Ping Monitoring System for the Bharat Electronics Limited (BEL) Anti-UAV System
+to monitor the connectivity of Radar, EO/IR cameras, RF detection units,
+Mission Computer, GPS modules, Data Server, and other network-connected hardware,
+using asynchronous Node.js processes for continuous, non-blocking status
+polling.
+
+●       
+Designed and consumed
+RESTful APIs to feed live status indicators and detailed error reporting for
+efficient fault detection, system health monitoring, and rapid issue diagnosis.
+
+●       
+Installed and configured
+Oracle Database on a server, including database creation, user management,
+performance monitoring, and basic administration tasks.
+
+**Full
+Stack Developer****                                                                            January
+2025 – November 2025**
+
+*GVR Company (Client: BEL – Bharat Electronics Limited),
+Hyderabad*
+
+●       
+Worked on the Automation
+Test Equipment project for BEL (Bharat Electronics Limited).
+
+●       
+Integrated and
+established IP & port communication with hardware devices such as signal
+generators and servo motors.
+
+●       
+Enabled device control
+through asynchronous, real-time data transmission for servo angle and speed
+configuration.
+
+●       
+Built and integrated
+RESTful API endpoints to connect with the Spectrum Analyzer via IP and port,
+allowing signal analysis and real-time monitoring.
+
+●       
+Contributed to both
+front-end (React.js) and back-end (Node.js) development for the control
+interface.
+
+**Full
+Stack Developer****                                                                              August
+2023 – December 2024**
+
+*Medicover Corporate Office, Hyderabad*
+
+●       
+Developed the Web
+Stories Dashboard using React.js, enabling story content to be added
+dynamically to the main Medicover website.
+
+●       
+Built a Content Page
+Creation Tool that converts copied document content into live web pages
+integrated into the main website.
+
+**Full
+Stack Developer****                                                                                           July
+2022 – May 2023**
+
+*Metalok Solutions, Hyderabad*
+
+●       
+Developed responsive
+websites optimized for both desktop and mobile platforms, resulting in a 100%
+increase in user engagement.
+
+●       
+Built Single Page
+Applications (SPA) using React.js and Redux, enhancing performance and user
+experience.
+
+●       
+Collaborated closely
+with designers and backend developers to ensure seamless integration of UI/UX
+and functionality.
+
+●       
+Maintained code quality
+through code reviews and consistent refactoring.
+
+**EDUCATION**
+
+**Bachelor
+of Science in Computer Science**
+
+University
+College of Science, Saifabad, Hyderabad | May 2020 | Percentage: 65%
+
+**PROJECTS**
+
+●       
+Kyyte.io
+
+●       
+medicoverwebstories.netlify.app
+
+●       
+articles-code.netlify.app
+
+●       
+akshararchana.com
+
+●       
+Sportsverse.trade
+
+●       
+Wtl.metalok.io
+
+●       
+Rammandir.metalok.io
+
+●       
+Filmable.metalok.io
+
+**CERTIFICATIONS**
+
+●       
+JavaScript – Udemy
+
+●       
+React.js – Udemy
+
+●       
+Node.js – Udemy
