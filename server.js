@@ -295,6 +295,7 @@ app.get('/api/indexed-files', (req, res) => {
 });
 
 // ── Chat ──────────────────────────────────────────────────────────────────────
+// ── Chat (Streamed SSE) ───────────────────────────────────────────────────────
 app.post('/api/chat', async (req, res) => {
   try {
     const { message, sessionId } = req.body;
@@ -303,117 +304,170 @@ app.post('/api/chat', async (req, res) => {
     }
 
     const activeSessionId = sessionId || `session-${Date.now()}-${Math.random().toString(36).slice(2, 8)}`;
-
-    // Get or create the active thread for this session
     const thread = getOrCreateActiveThread(activeSessionId);
 
-    // Build history context from this thread's messages only
-    const historyContext = thread.messages.slice(-8).map(m => `${m.role}: ${m.content}`).join('\n');
+    // Keep conversational context concise (last 6 messages) to reduce prompt pre-processing latency
+    const historyContext = thread.messages.slice(-6).map(m => `${m.role}: ${m.content}`).join('\n');
 
     log(`[${thread.id}] Received: ${message}`);
-
-    // Add user message to thread
     thread.messages.push({ role: 'user', content: message });
     if (!thread.title) {
       thread.title = message.slice(0, 60);
     }
 
-    let reply;
-    let answerSource = 'general';
-    let sources = [];
-    // Minimum relevance score for a chunk to be considered truly on-topic (Tier 1)
-    const RELEVANCE_THRESHOLD = parseFloat(process.env.RELEVANCE_THRESHOLD || '0.3');
+    // Set SSE headers immediately to establish a fast stream connection with the UI
+    res.setHeader('Content-Type', 'text/event-stream');
+    res.setHeader('Cache-Control', 'no-cache');
+    res.setHeader('Connection', 'keep-alive');
 
     if (isIdentityQuestion(message)) {
-      reply = 'I am Sana AI Assistant, your offline AI assistant. I can help you chat, answer questions, and work with your uploaded documents locally.';
-    } else {
-      const allChunks = searchRelevantChunks(message, { topK: 4 });
-      // Only keep chunks that are genuinely relevant
-      const relevantChunks = allChunks.filter(c => c.score >= RELEVANCE_THRESHOLD);
+      const identityReply = 'I am Sana AI Assistant, your offline AI assistant. I can help you chat, answer questions, and work with your uploaded documents locally.';
+      
+      thread.messages.push({ role: 'assistant', content: identityReply });
+      thread.source = 'general';
+      thread.sources = [];
+      thread.updatedAt = new Date().toISOString();
 
-      let prompt;
+      const sd = getSessionData(activeSessionId);
+      sd.threads.set(thread.id, thread);
+      saveSessionData(activeSessionId, { threads: sd.threads });
 
-      if (relevantChunks.length > 0) {
-        // ── TIER 1: Try to answer from the uploaded document first ─────────────
-        // If the document context does not cover the question, the LLM must fall
-        // back to general knowledge (Tier 2) or admit it doesn't know (Tier 3).
-        const contextText = relevantChunks
-          .map((chunk, index) => `[Source ${index + 1}] ${chunk.sourceName} (page ${chunk.pageNumber || 'unknown'})\n${chunk.text}`)
-          .join('\n\n');
-        prompt = `You are an offline AI assistant. Answer the user's question using the following 3-tier strategy:
+      res.write(`data: ${JSON.stringify({ 
+        chunk: identityReply, 
+        type: 'metadata',
+        source: 'general', 
+        sources: [], 
+        threadId: thread.id, 
+        sessionId: activeSessionId 
+      })}\n\n`);
+      res.write(`data: ${JSON.stringify({ done: true })}\n\n`);
+      return res.end();
+    }
 
-TIER 1 — If the document context below clearly answers the question, answer from it concisely and cite the source.
-TIER 2 — If the document context does NOT answer the question, answer from your general knowledge directly and naturally without any prefix or disclaimer.
-TIER 3 — If neither the document context nor your general knowledge can answer reliably (niche, legacy, or uncertain topic), respond with exactly: "I don't have verified information about this. Please share relevant documentation so I can give you an accurate answer."
+    const RELEVANCE_THRESHOLD = parseFloat(process.env.RELEVANCE_THRESHOLD || '0.3');
+    // Reduced topK from 4 to 3 for faster context processing
+    const allChunks = searchRelevantChunks(message, { topK: 3 });
+    const relevantChunks = allChunks.filter(c => c.score >= RELEVANCE_THRESHOLD);
 
-Remember the conversation context when the user refers to earlier turns.
+    let prompt;
+    let answerSource = 'general';
+    let sources = [];
 
-Conversation context:
+    if (relevantChunks.length > 0) {
+      const contextText = relevantChunks
+        .map((chunk, index) => `[Source ${index + 1}] ${chunk.sourceName} (page ${chunk.pageNumber || 'unknown'})\n${chunk.text}`)
+        .join('\n\n');
+
+      prompt = `You are an offline AI assistant. Answer using this 3-tier strategy:
+TIER 1 — If document context clearly answers, answer concisely and cite sources.
+TIER 2 — If document context does not answer, answer from general knowledge naturally without disclaimers.
+TIER 3 — If uncertain, respond with: "I don't have verified information about this. Please share relevant documentation so I can give you an accurate answer."
+
+History:
 ${historyContext}
 
 Document context:
 ${contextText}
 
-User question: ${message}`;
-        answerSource = 'documents';
-        sources = relevantChunks.map(chunk => ({ fileName: chunk.sourceName, pageNumber: chunk.pageNumber || null }));
-        // Deduplicate sources
-        const seen = new Set();
-        sources = sources.filter(s => {
-          const key = `${s.fileName}::${s.pageNumber || ''}`;
-          if (seen.has(key)) return false;
-          seen.add(key);
-          return true;
-        });
-      } else {
-        // ── TIER 2 / TIER 3: No document chunks at all ────────────────────────
-        prompt = `You are an offline AI assistant. Answer the user's question using the following 2-tier strategy:
+Question: ${message}`;
 
-TIER 2 — Answer from your general knowledge directly and naturally if you are confident the answer is accurate. Do not add any prefix or disclaimer.
-TIER 3 — If the topic is niche, legacy, specialised, or you are not confident, respond with exactly: "I don't have verified information about this. Please share relevant documentation so I can give you an accurate answer."
+      answerSource = 'documents';
+      sources = relevantChunks.map(chunk => ({ fileName: chunk.sourceName, pageNumber: chunk.pageNumber || null }));
 
-Remember the conversation context when the user refers to earlier turns.
+      const seen = new Set();
+      sources = sources.filter(s => {
+        const key = `${s.fileName}::${s.pageNumber || ''}`;
+        if (seen.has(key)) return false;
+        seen.add(key);
+        return true;
+      });
+    } else {
+      prompt = `You are an offline AI assistant.
+TIER 2 — Answer from general knowledge naturally if confident.
+TIER 3 — If uncertain, reply: "I don't have verified information about this. Please share relevant documentation so I can give you an accurate answer."
 
-Conversation context:
+History:
 ${historyContext}
 
-User question: ${message}`;
-        answerSource = 'general';
-      }
+Question: ${message}`;
+      answerSource = 'general';
+    }
 
-      try {
-        reply = await generateAnswer(prompt, { model: process.env.OLLAMA_CHAT_MODEL || 'llama3.2' });
-      } catch (ollamaError) {
-        reply = `I could not generate a response from Ollama. ${ollamaError.message}`;
+    // Emit initial metadata event to frontend
+    res.write(`data: ${JSON.stringify({ 
+      type: 'metadata', 
+      source: answerSource, 
+      tier: answerSource === 'documents' ? 1 : 2, 
+      sources, 
+      threadId: thread.id, 
+      sessionId: activeSessionId 
+    })}\n\n`);
+
+    // Stream directly from Ollama local REST API
+    const ollamaResponse = await fetch('http://127.0.0.1:11434/api/generate', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({
+        model: process.env.OLLAMA_CHAT_MODEL || 'mistral',
+        prompt,
+        stream: true,
+        options: {
+          num_ctx: 2048,     // Limits VRAM thrashing
+          keep_alive: '30m'  // Keeps model loaded in VRAM between user queries
+        }
+      })
+    });
+
+    if (!ollamaResponse.ok) {
+      throw new Error(`Ollama API error: ${ollamaResponse.statusText}`);
+    }
+
+    let fullReply = '';
+    const reader = ollamaResponse.body.getReader();
+    const decoder = new TextDecoder();
+
+    while (true) {
+      const { done, value } = await reader.read();
+      if (done) break;
+
+      const chunkStr = decoder.decode(value, { stream: true });
+      const lines = chunkStr.split('\n').filter(Boolean);
+
+      for (const line of lines) {
+        try {
+          const parsed = JSON.parse(line);
+          if (parsed.response) {
+            fullReply += parsed.response;
+            // Push chunk instantly to the client UI
+            res.write(`data: ${JSON.stringify({ chunk: parsed.response })}\n\n`);
+          }
+        } catch (e) {
+          // Ignore partial line errors during stream read
+        }
       }
     }
 
-    // Persist assistant reply in thread
-    thread.messages.push({ role: 'assistant', content: reply });
+    // Persist complete assistant reply after streaming finishes
+    thread.messages.push({ role: 'assistant', content: fullReply });
     thread.source = answerSource;
     thread.sources = sources.map(s => s.fileName);
     thread.updatedAt = new Date().toISOString();
 
-    // Save thread back into session
     const sd = getSessionData(activeSessionId);
     sd.threads.set(thread.id, thread);
     saveSessionData(activeSessionId, { threads: sd.threads });
 
-    // Derive the tier number for the client
-    const tier = answerSource === 'documents' ? 1 : 2;
+    res.write(`data: ${JSON.stringify({ done: true })}\n\n`);
+    res.end();
 
-    res.json({
-      answer: reply,
-      source: answerSource,
-      tier,
-      sources,
-      threadId: thread.id,
-      sessionId: activeSessionId,
-      message: 'Response generated successfully.'
-    });
   } catch (error) {
     log(error.message, 'error');
-    res.status(500).json({ error: error.message || 'Unable to generate a response.' });
+    if (!res.headersSent) {
+      res.status(500).json({ error: error.message || 'Unable to generate a response.' });
+    } else {
+      res.write(`data: ${JSON.stringify({ error: error.message, done: true })}\n\n`);
+      res.end();
+    }
   }
 });
 
